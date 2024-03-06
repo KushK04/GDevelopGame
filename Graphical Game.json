@@ -1337,7 +1337,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402157022,
+        "zoomFactor": 0.5290357402157044,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4475,6 +4475,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
