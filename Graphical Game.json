@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "a3410352-380c-4e6e-b95f-34d6d6ff45f7",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -774,6 +774,204 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/32e514fb3ce3464cd030573ce63ddb2daf63d72124ffe5543a2682f5a30d7f97_Dino Lena_Sneak_6.png",
           "name": "Dino Lena_Sneak_6.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Move.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Move",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Move2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Move2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Move3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Move3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Move4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Move4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -788,8 +986,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Tutorial_32Cave_32Level",
+      "name": "Tutorial Cave Level",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -805,7 +1003,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156861,
+        "zoomFactor": 0.6897782140104529,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -896,14 +1094,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 3,
-          "height": 67,
-          "layer": "Background",
-          "name": "DinoVita",
-          "persistentUuid": "0843d98b-3a55-4d0b-9beb-11ca88d72408",
-          "width": 67,
-          "x": 111,
-          "y": 606,
+          "depth": 0,
+          "height": 55,
+          "layer": "",
+          "name": "Blue",
+          "persistentUuid": "2017cdd5-617c-4741-8c9e-c7dbef4293d2",
+          "width": 55,
+          "x": 283,
+          "y": 610,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -913,13 +1111,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 67,
-          "layer": "Background",
-          "name": "DinoLena",
-          "persistentUuid": "08f70afd-1be3-47dd-8a02-1723559be59c",
-          "width": 67,
-          "x": 200,
-          "y": 606,
+          "height": 55,
+          "layer": "",
+          "name": "Red",
+          "persistentUuid": "3e7f2ad8-d277-4d1a-9872-8410be0a9c00",
+          "width": 55,
+          "x": 232,
+          "y": 611,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -998,18 +1196,414 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "9163c8e7be832bda37495c941d0bf7e18a6bddd901ab925aa1dcd879b914bf5e",
-          "name": "DinoVita",
+          "assetStoreId": "",
+          "name": "Blue",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit1Idle\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAihJREFUeF7tWtluBCEM263U///gSu2KB1RKcziQDFmGPi6HE9tkAurzcf5uzcDz1tmf5B/HADc3wTHAMcAAAx+fP+Sq769rDLUaf4CyrEvsghXyOaGlMS8GVuN75ZFkH5sBEIGROaPJI3sjc0bxN1yHG8BCrGUuSqplT8tcFH/TeZgBrIR6f6NX428qfknLzwCt6KVH6EWr4yONImKASPxjAKHxK+RQ4nKiIWL2hGtrovGPAQAD9Cf7agNE4h8DOBlAO8kc0do6ahz9bWNxkdT8e4B6Elf1ABH4CJNvOkc3QBVSO4WVgKgbwCr8NxUWDVs2AHWKtS4eFQqJcDU+EuObz7EboCQsPQVL41ayrJ+RmaumNbZN5uMGaMWQyrynCD1m+32nBKjvD54m3ERoLo0xA2ikeH0GOANcha/hbDCOGcAqqFcVsDagfSOq9SsbCDibAnYLGCmpVtNIbwAr8WcZTr7+GCC5QNHh/TVA39zNNFVcB18zosrzavxothPu/98A1EvaSDlvv9+96FyPIHX91u/5CH5CgaJD+jWA9OgyawDutLe/r8aPZjrp/uMVoC3XksCUeThDWSpABH5SkSLD4nsA7XTWzlwr571QUjXhRJVeBD3xI5lOurd+CyiBS+WZG++vbjNvA6vxk4rnERZugFZQ6URShpiNtDfP1fiz8SdejxmgitomQv0HjjQ+SwJ1RWz31MZn8TddjxtgUwLuntYxwM0d8AIEXi4/HC2R7wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAuNJREFUeF7tmr1OwzAQgJ2i8jwMiAEhwcTCzMAj8AT8iBGBeAKExM7QmYUNqWJADDwLIxUNclSniXv2nZ27OFXN2Kr57ufL2U4oVP7b6AoUG519Tl5lATZcgixAjAAHdyX4s+l1P/Vk5McFzBhATP1VSr5m713BYX/eKyUtATM/XADmAIIFSMn3sU0ikhII8MMEEAggSICUfApbUgIhPl0AoQDIAqTkh7AlJBDk0wQIDYB7DK4B//Tn0uvy5PmBVmvoKoT8Y/m0oAQDIE2AgfNN8XcPT8B0vt5fq8+jJUDy78JnEaBLABwCSPJ39o/L79GRcu78lVKa72q+yU9LECOANJ9NAKkCVAUk3AESfF38s/MbdfE0TSJAH3xUAGkDsQmQkh/SAJ0H9xLQB98rQB8B+AQYCv/l8VZRlgFfLrHjX08gST5JAMkAKAIMgv/xVmBLUZUL4wnI3ABV/kJ8ugBCAZAFGAIf248wNl+jVgQQ4IcJIBBAkABD4JsYoMCZ3wOAAjDzwwRwvYSxi8FUCHAEYrtG/b003/cyaM34dAGQs3DdFz0GmYrQEiDzvUfR2PqTBKjOwfrPZb59VzKtha1TQOaL1J8uALX5ZifMMAWox8CVVSF2Co3Gy3/0mM8KVr51bXAlS8BneRAEJsM4BbAzOAt/NC7Lv9/6UsXWtlILCTrzHdduxZ2I3xYAsJTyJA5tAMV+fZGU/EQNqGuXiL8UwGcp4W0cOIb1bpxi/6L50B1YXXed+VhupnBS9Uf4WYCmua5J1UXARoNr1HwGL70J+PECmI2WycreJJo9gNQE4OaD69jiQ0gAKt93Xep3gnx0D+Acwc1NnitA80Cmwx6gV76rIVh+2PfURifgo6cAsAH2Mcs8IWxOAaZTQOYDeyDG+tMF0J0wDXY1t3kncAuQ+SL1pwlg78T7FiDz2ychxvqHCdBco6AXLvbLIqaXMvUykPnLCjDVny5A141M/v0gK/APQPQyXTBfkfsAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"NewSprite5\",\"NewSprite6\",\"NewSprite7\",\"NewSprite8\"],\"name\":\"NewSprite\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit1Walk\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":5,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAl9JREFUeF7tWu1ug0AMg0l7/weu1FUdu3Kk+XCOiFXg/Rwc5hwn54TOE/8uzcB86d1z8xMFcHERUAAUwAADX98/6qr77RhBEb+M/3zAnuRbgfauDehMXUL8Uv5zAkACjNwzKgbk2cg9xH8xgAsgQ2zmXjQYmWdm7r04PiaALKHVZzTx7bKvCTjBf50AetCnR5BBa9dHjCIiAOKvxjDBf40AtOBaQUOCKVUdrSH+Evw+uUD+6wQgMxt8AegIRgRA/G0sQf6PFUAUSEsN0TrtOvo/RIEnxq8RwJNEWYb/ywO0SkD8rXE0PFgsgEZklAUtkxIOFEm+l5kkPtYJJPn3BaBlUeTi0UAh0Sf+exYX858XgHSbfSD3tHpWPyudLfG3bn8n/7gA+mz0ykylCCRmf75rgmn9rycSpPL0x5nmKU60/zEBRCRWHQOWAIjvM5DgHxNA4oG/b1ZVBbIGVBrR6LxEhXTi/WNdwEhJzZLmzQCIb5/7o7OTv3UUAFIFTizA9/FhT8geU2UNYtrztfIszRXxl49qFQLUuJ0m8aNQz3Vnz9P+/JZBtzZF/LXvHzXAsoPpAy+7qPttXiuAN3QZOc8jAxcNeSoJsKqN9/XsIvj2F6SIAE1ZciihfZduXUIUFOLr1UB2Otbx4CVgx63tAaLsaMBROZdC8aqJJSrLT3gewTqCiL8ZL8ddgJaxSPmWyhw1M8Rf5ipRQkYjc4N/XAB9QL2M9Ep81HKhswDi+596E54NE0A/3bPaOKPNGI3527ro+dH1vS8SPT+6/qH4uAD2boDrP5IBCuAjw3LcSz0AhY9cXRYLmmcAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAxBJREFUeF7tmrtKQ0EQhvdE4vNYiIgIamNjbeEj+AResBTFxlYEewtrGzshWIiFz2KpaGQCm5xsdnf+2cvZnJOkzLnM/PN/O9lLKrX8LHQFqoVWvxSvlgAsOARhAGxfDa11G5yHva9tJnRIv9wwEr9xZrfs/VqpJiAoaUDH9MsA8InXSOSGoKQBHdSPA4CIzw0BkkMuAJHYLdSPASART0XIYYIkh9TxJbFbpj8ZAIdfp96p3NPDDRbL9pbSBgDx26ofM4UpgBa/vnNgheDj9Xn0fTAEc25Am/UnA8BlviaCIMgFQGkDKH5b9bMArG3tDz97u8q59FNKzUMBchnQdf1eAEj80fGFOrkfsADQSM/xE1DSgEXQDwHweHepkC7gmwWGtP/SBuj4XdaPA/D2UilgMpZyCTgvBowA6Kh+GQA0xBvciZsCoLQBFL+D+mUAuPbgzd6f6DxgBoB5MAA5uGqRfhwAZiUwrgvtwtEnQRGsHaCUAR3VDwEwWgXQx3UKaJpibsX2+pPj478fdumpXyeZAyQB0MhzahIaox+B1nJPkP7bCq4vhcQBQM3Xe+G6C/T6w+Hv91hetbKqFAhBowZY8lzb3FPIMnjGu9AuWABAlhZkHW4FXHeBVACEAoiOPkee0fopPtIBCwE4DYAl0egCRABAtYuOH2EAdaro+Kj+QgBOAPAliqz/ffMAZAQ4jGrMAB8oMfpLA8DEbwYApA3nAhA1wJdjEwAUAnAJAAJnDADoT1AhANk5wCgvWwH0TFcnbk7SpP/KydUBUhgQUgOp/lwAMPrZVYDTfHOjx4QkpAC+uYIUwpD4XDfgNNavp44v7UJgfBkA3PqWKxBXYO469/6cBvi6AA0GLjdOG3edO4Opd2DQfHYjaKb9Iy/OVQhXB6h3olyx6+a48gg0gPN96ro+i7H93OrvEI9qL+U7gCZfP4Ts8ZuHRsgzXCUQAMxRKiwGl8L4ug20+sMp9LqS8UFAzwhjYwDAlcl4o+sk0jcXyQWAOSgCCh9dqUTdrj0ASCqmYRGOBkmI4vcm6rL/qZfxToy0resAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"Move\",\"Move2\",\"Move3\",\"Move4\"],\"name\":\"Move\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Move",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Move2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Move3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Move4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit1jUMP\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":0,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATFJREFUWEftlksOwjAMRFsk7n9gJEBBdXFcf2bSSGUBS5LaL+Oxk3W5+LdenH/5A4wpcLu/3NI9H3Q8+oOlJY8SZWuB2TgAJAGyR8HgAExgYi8GQAT8HI7wyDwAnbR5xELLuvHPHAAveKSa+X8egO2MnwRwoOYooI0nSkzzgARCO4HogMadK+Cdohq3KOg2jHiA9mE2irN1ZxzjAPpkmcxBv0fvjjGA6hVDlAEDIAJ2o7jyS2lCr72q08s6CF3PAbKmO98QgDWXXCqks/cy6BJ4sQ8lsE6PphpSBj3AZL+Otx3qW4Js6IBydlzVBN3Wew8wCtj736qSAag8RwArl3SCV8/MI1EJprwHqjvC65ygm+o2HLlqCc9gAN5D03sBaR8AU7C+jpF2O7kHV+BkoujzN1/QFzB2xJE+AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAZRJREFUWEfNlrFuAjEMhp0r8CaMlToxoA6d+g7dWdgrVVQdUZEqda4qdecdOiOGm5AY+yZFcJVP5AiOfXGO0ONGlPj/7Ni/MdDyZ1rWh2YAt68FC754jo4XfQFQfDDhC5fPACIh4gDqxC1SPoPRsOcBfr09slp6AI04AIw676V4/3pQQfysczgNQCHOCVuCfwNws3bf4OwAmH0TcYTU9UDgCSQAzBw/6f1VADfD+2KV3YE4evvGoxXQiAcBUPxh/AJPn4sggNv5WvFjgKx7cLfdpnwaCzD/mIKmCm7jeWVn4h8Asm5RbH+r++aqB7DbmCOA5bepdUHHiDw3FOLHA+CNJlacDEBaQtR46T4IAmCAE3ugYsCFhB8DUZ3Z91jcFOBpaQvSCkRsxVoj0o6ht/qkKngHFU6oMSImLoCyCkErbh2gzE6xjtlnUPw7ClbgcgFso9nU6YSk6gGxAq4A90RnBaBjZh3SrUIyAG122nOkW8NNSANLJtOwCmEAO4YuuTRedFklG0PW6tL8qKtAGi02SusAf4AxCTDYyF0pAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"Jump2\"],\"name\":\"Jump\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Jump2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Red",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1043,11 +1637,12 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.125,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit1Idle\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAihJREFUeF7tWtluBCEM263U///gSu2KB1RKcziQDFmGPi6HE9tkAurzcf5uzcDz1tmf5B/HADc3wTHAMcAAAx+fP+Sq769rDLUaf4CyrEvsghXyOaGlMS8GVuN75ZFkH5sBEIGROaPJI3sjc0bxN1yHG8BCrGUuSqplT8tcFH/TeZgBrIR6f6NX428qfknLzwCt6KVH6EWr4yONImKASPxjAKHxK+RQ4nKiIWL2hGtrovGPAQAD9Cf7agNE4h8DOBlAO8kc0do6ahz9bWNxkdT8e4B6Elf1ABH4CJNvOkc3QBVSO4WVgKgbwCr8NxUWDVs2AHWKtS4eFQqJcDU+EuObz7EboCQsPQVL41ayrJ+RmaumNbZN5uMGaMWQyrynCD1m+32nBKjvD54m3ERoLo0xA2ikeH0GOANcha/hbDCOGcAqqFcVsDagfSOq9SsbCDibAnYLGCmpVtNIbwAr8WcZTr7+GCC5QNHh/TVA39zNNFVcB18zosrzavxothPu/98A1EvaSDlvv9+96FyPIHX91u/5CH5CgaJD+jWA9OgyawDutLe/r8aPZjrp/uMVoC3XksCUeThDWSpABH5SkSLD4nsA7XTWzlwr571QUjXhRJVeBD3xI5lOurd+CyiBS+WZG++vbjNvA6vxk4rnERZugFZQ6URShpiNtDfP1fiz8SdejxmgitomQv0HjjQ+SwJ1RWz31MZn8TddjxtgUwLuntYxwM0d8AIEXi4/HC2R7wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAvBJREFUeF7tmrFOwzAQQJ2iIvUj+IcOTAxlg4GVAX4AiU9A6tiFL2BhB4mZhY0iMSHB31SigqCr6tY1tu/s3MWp6o6E+t2dXy6200qVz05XoNrp7Evyqgiw4xIUARIEmAwGtetr49mslXpy8pMC5gwgof4qJx/YF6ORM+zH6VRJS8DNjxaAO4BYAXLyQ2ydh6QEEvwoASQCiBEgJ5/ClpRAik8WQCoAqgA5+TFsCQkk+SQBYgPgboPbwL85GAZdfrq/JdXaNQgl/1Q+KSjJACgdoOt8XfzD4zNnOh+vz4u/p0qA5d+EzyJAkwA4BJDkD49O6vPPN+Vb+UP8wPdNvs4PJEgRQJrPJoBUAaCAlDtAgg/Fv7weq/nVaRYB2uCjAkgbiHWAnPyYCYA8uB8BbfCDArQRQEiArvAf7iaK8hgI5ZLa/qEDSfJJAkgGQBGgC/yv95cKexRBLpw7IH0DQP5SfLIAUgFQBegCH1uPcE4+sGwBJPhRAkgEECNAF/g6Blfc3O8BXAJw86ME8L2EsYvBVQhXC8QWjXBdmh96GbRtfLIA2CLIPALlKoIpQOGHzyJS608SAPbB8Akdhph3Jtez0NwFFL5M/ckCUCdfr4Q5ugB1G2g/FkDAJH6vv/6hx++8YuVbYzsfZRn4LAdBrmQ4uwC1/TfqQr1+Xf98r4ao9vaVWkrQmO8Ze6NumfibAjgspZzEoQJQ7IdBcvIzTcCqdpn4awECllIOQFxteLEap9i/nHzXHYht/Xy7glUHys1HcsMEaJw/wi8CmAZ5OlWjG0CPT+mCGfjJAuiFls7PXiRK34HsfF8r8byNJPMD41IvuQTk4qNrAF8LMhd5vgBXBzIU+z1rgFb5nhnB8sOuUyfa93/Y+Nj1EB/dBbgmwN5m6RNCswtw7QIK///vITjrTxYAJkJPsG9yTRO5BSh8mfqTBLDvwrYFKPzNLsBZ/ygBzGeJ64WL/bKI66WMFqDw1xXgqj9ZgKYLmfL9blbgD4Gx9l3lS2QxAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"NewSprite9\",\"NewSprite10\",\"NewSprite11\",\"NewSprite12\"],\"name\":\"NewSprite\"}}",
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Idle_1.png",
+                      "image": "NewSprite9",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1063,27 +1658,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
+                            "x": 2,
                             "y": 4
                           },
                           {
-                            "x": 19,
+                            "x": 29,
                             "y": 4
                           },
                           {
-                            "x": 19,
-                            "y": 21
+                            "x": 29,
+                            "y": 31
                           },
                           {
-                            "x": 4,
-                            "y": 21
+                            "x": 2,
+                            "y": 31
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Idle_2.png",
+                      "image": "NewSprite10",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1099,27 +1694,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
+                            "x": 2,
                             "y": 4
                           },
                           {
-                            "x": 19,
+                            "x": 29,
                             "y": 4
                           },
                           {
-                            "x": 19,
-                            "y": 21
+                            "x": 29,
+                            "y": 31
                           },
                           {
-                            "x": 4,
-                            "y": 21
+                            "x": 2,
+                            "y": 31
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Idle_3.png",
+                      "image": "NewSprite11",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1135,27 +1730,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
+                            "x": 2,
                             "y": 4
                           },
                           {
-                            "x": 19,
+                            "x": 29,
                             "y": 4
                           },
                           {
-                            "x": 19,
-                            "y": 21
+                            "x": 29,
+                            "y": 31
                           },
                           {
-                            "x": 4,
-                            "y": 21
+                            "x": 2,
+                            "y": 31
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Idle_4.png",
+                      "image": "NewSprite12",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1171,20 +1766,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
+                            "x": 2,
                             "y": 4
                           },
                           {
-                            "x": 19,
+                            "x": 29,
                             "y": 4
                           },
                           {
-                            "x": 19,
-                            "y": 21
+                            "x": 29,
+                            "y": 31
                           },
                           {
-                            "x": 4,
-                            "y": 21
+                            "x": 2,
+                            "y": 31
                           }
                         ]
                       ]
@@ -1194,16 +1789,17 @@
               ]
             },
             {
-              "name": "Crouch",
+              "name": "Walk",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.025,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit2Walk\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":5,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAl9JREFUeF7tWu1ug0AMg0l7/weu1FUdu3Kk+XCOiFXg/Rwc5hwn54TOE/8uzcB86d1z8xMFcHERUAAUwAADX98/6qr77RhBEb+M/3zAnuRbgfauDehMXUL8Uv5zAkACjNwzKgbk2cg9xH8xgAsgQ2zmXjQYmWdm7r04PiaALKHVZzTx7bKvCTjBf50AetCnR5BBa9dHjCIiAOKvxjDBf40AtOBaQUOCKVUdrSH+Evw+uUD+6wQgMxt8AegIRgRA/G0sQf6PFUAUSEsN0TrtOvo/RIEnxq8RwJNEWYb/ywO0SkD8rXE0PFgsgEZklAUtkxIOFEm+l5kkPtYJJPn3BaBlUeTi0UAh0Sf+exYX858XgHSbfSD3tHpWPyudLfG3bn8n/7gA+mz0ykylCCRmf75rgmn9rycSpPL0x5nmKU60/zEBRCRWHQOWAIjvM5DgHxNA4oG/b1ZVBbIGVBrR6LxEhXTi/WNdwEhJzZLmzQCIb5/7o7OTv3UUAFIFTizA9/FhT8geU2UNYtrztfIszRXxl49qFQLUuJ0m8aNQz3Vnz9P+/JZBtzZF/LXvHzXAsoPpAy+7qPttXiuAN3QZOc8jAxcNeSoJsKqN9/XsIvj2F6SIAE1ZciihfZduXUIUFOLr1UB2Otbx4CVgx63tAaLsaMBROZdC8aqJJSrLT3gewTqCiL8ZL8ddgJaxSPmWyhw1M8Rf5ipRQkYjc4N/XAB9QL2M9Ep81HKhswDi+596E54NE0A/3bPaOKPNGI3527ro+dH1vS8SPT+6/qH4uAD2boDrP5IBCuAjw3LcSz0AhY9cXRYLmmcAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAw5JREFUeF7tmT9OXDEQxr2LQNpDcIctUqAURGlCQUtBLhCJIyBtScMJ0qRPpNRp0gESFRLcBikoeWgi+a0xtucb/3nDe7tbwa7XM998P8/afjOzfW10BWYbrX4r3mwB2HAIsgC4WCy6UN1Wj49Z843NgynpFxtG4k8PD4Oe/bi+NkNAoGnA1PSLAEiJt0S0hkDTgCnqhwFAxLeGAMmhFYBI7DHqhwCQiKcitDBBkkPt+JLYY9NfDYDz/WVyL/fz2yUUKzSJtgFI/LHqh0zhCmDFv/twHITg7urX//dzIeDi09yaBoxZfzUAYuZbIgiCVgBoG0Dxx6qfBWD5/lN3cn9jYkc/u/q0C9Aq/tT1JwEg8Z/PVubpyxELAIHQ4idA04BN0A8B8P3rhUG6QGoXmNP+tQ2w8aesHwbg4fb3DNmM1TyCvRUDCICp6hcBQCt8yJs4FwBtAyj+FPWLAIjdwfutv9bzAB+At2AA8uBqTPphALg9gHsNSn/XKEKoA2gZMFX9EAB0CqBX6ijoGvNqHzDfXT8+/vfEHj3tXJI9QBUAvTzdTWiRfoTawJgh9MMAoObbu/C+C8x3u+7vn17ebGfPGBCCQQ0I5Lk8+GiQY7DvHS2ArC6oACC7GpFzeAjwvgtUAiAbQHT1RfIs1k/xkQ6oBOBLAAKJFhegAACqXXH8AgOoUxXHR/UrAbgGIJEocv4PtcF+I4isgIhRgxmQAKVIvzYATPxhAEDacCsAUQMSOQ4CgBKAWwAAOIsAQH+ClABk9wCUV6gAdqdr8/Y3aeIr4VYdoIIBOTUQ628FAKOfPQXEzPcvevxxWQVI7BWkEGbFZ7oBp9H9vHZ8aRdC44sA4M63XIGAbpscws3f0oBUF6DFwOVWW7s7H/nidmDUfJpDDAB3xduqEEgnahXbLXYsj1wDJGDYZzGhn1v7nsR8CABLvk2UA8AfT/8j3+EKgQDgr1JpMbgc7Och0Nzv1tAbyyUFQU6t2Q6AFqX1uNiTyNRepBUArSCX1LBWtxsNANLi5KwGSQztsf6CyO06z+d/qV0/uXgGAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"Walk\",\"Walk2\",\"Walk3\",\"Walk4\"],\"name\":\"Walk\"}}",
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Crouch.png",
+                      "image": "Walk",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1219,20 +1815,128 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
+                            "x": 2,
                             "y": 4
                           },
                           {
-                            "x": 19,
+                            "x": 29,
                             "y": 4
                           },
                           {
-                            "x": 19,
-                            "y": 21
+                            "x": 29,
+                            "y": 31
                           },
                           {
-                            "x": 4,
-                            "y": 21
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walk2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walk3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walk4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 4
+                          },
+                          {
+                            "x": 29,
+                            "y": 31
+                          },
+                          {
+                            "x": 2,
+                            "y": 31
                           }
                         ]
                       ]
@@ -1242,292 +1946,17 @@
               ]
             },
             {
-              "name": "Hurt",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Hurt_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Hurt_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Hurt_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Hurt_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Kick",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.1667,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Kick_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Kick_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Kick_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Move",
+              "name": "Jump",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.0833,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit2jUMP\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":0,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATFJREFUWEftlksOwjAMRFsk7n9gJEBBdXFcf2bSSGUBS5LaL+Oxk3W5+LdenH/5A4wpcLu/3NI9H3Q8+oOlJY8SZWuB2TgAJAGyR8HgAExgYi8GQAT8HI7wyDwAnbR5xELLuvHPHAAveKSa+X8egO2MnwRwoOYooI0nSkzzgARCO4HogMadK+Cdohq3KOg2jHiA9mE2irN1ZxzjAPpkmcxBv0fvjjGA6hVDlAEDIAJ2o7jyS2lCr72q08s6CF3PAbKmO98QgDWXXCqks/cy6BJ4sQ8lsE6PphpSBj3AZL+Otx3qW4Js6IBydlzVBN3Wew8wCtj736qSAag8RwArl3SCV8/MI1EJprwHqjvC65ygm+o2HLlqCc9gAN5D03sBaR8AU7C+jpF2O7kHV+BkoujzN1/QFzB2xJE+AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAZNJREFUWEftl71OAkEQx2cxmPAglkYqCws68QUs5AVMLOgo6aQwvoCNPTyDJSYWNppY0vgWJF7kyBD3GOdmbmeXQzTxqstld/6/+c452PHjdqwPSQCjViuXwIfzebS96AsoftHpiIGbTKcQCxEFUCXuiRDivX9dAry/HYhaZgCLOKreHJ2uxA8OjwuI2dszbARgEZeEPcGPAVCvaQ62DoDep4gjpKkGQinQANBzfLT8mwDaJ938/OURtNbzhccjYBEPAqB472oI2eVZEIBWvlX8O0CjuZ5ui2yVGg8wvhuBJQq08EphF+yvARrNPP/8KO67vX2AReYowOvTgwvVAhoQp6FiPxoALySN4roAtCXE525pHwQB0MKGNUB3Ab5LEAXoV41FdQEermpFGoWYrVg5iKxtyFOAAGIU+EHLJLQMIsGu3A1/EiDUepL36jxIicCvBfCF5p3iHWLthOR1TAWk6bhVAN5mfkLSKNQGYPXOeo7XYTAF3LA2ZFKjEATwXUDJtZ8PvqwsPykmAK3X6/j+D7AETQY7MNIglBQAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"Jump\"],\"name\":\"Jump\"}}",
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Move_1.png",
+                      "image": "Jump",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1543,1397 +1972,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
+                            "x": 2,
                             "y": 4
                           },
                           {
-                            "x": 19,
+                            "x": 29,
                             "y": 4
                           },
                           {
-                            "x": 19,
-                            "y": 21
+                            "x": 29,
+                            "y": 31
                           },
                           {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Move_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Move_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Move_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Move_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Move_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sneak",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.0833,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Sneak_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Sneak_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Sneak_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Sneak_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Sneak_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Vita_Sneak_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "9f4a1853638b034e9f200735bbe88d60110ced10000a88cb5f61bf03f6e5ea41",
-          "name": "DinoLena",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": true,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "name": "PlatformerObject",
-              "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Idle_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Idle_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Idle_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Idle_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Crouch",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Crouch.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Hurt",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Hurt_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Hurt_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Hurt_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Hurt_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Kick",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.1667,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Kick_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Kick_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Kick_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Move",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.0833,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Move_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Move_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Move_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Move_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Move_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Move_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sneak",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.0833,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Sneak_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Sneak_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Sneak_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Sneak_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Sneak_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Dino Lena_Sneak_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 4
-                          },
-                          {
-                            "x": 19,
-                            "y": 21
-                          },
-                          {
-                            "x": 4,
-                            "y": 21
+                            "x": 2,
+                            "y": 31
                           }
                         ]
                       ]
@@ -2960,10 +2012,10 @@
             "objectName": "Ground"
           },
           {
-            "objectName": "DinoVita"
+            "objectName": "Blue"
           },
           {
-            "objectName": "DinoLena"
+            "objectName": "Red"
           }
         ]
       },
@@ -3019,7 +2071,7 @@
                     "value": "PlatformBehavior::SimulateControl"
                   },
                   "parameters": [
-                    "DinoVita",
+                    "Blue",
                     "PlatformerObject",
                     "\"Left\""
                   ]
@@ -3029,9 +2081,20 @@
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "DinoVita",
+                    "Blue",
                     "Flippable",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "Animation",
+                    "=",
+                    "\"Walk\""
                   ]
                 }
               ]
@@ -3055,7 +2118,7 @@
                     "value": "PlatformBehavior::SimulateControl"
                   },
                   "parameters": [
-                    "DinoVita",
+                    "Blue",
                     "PlatformerObject",
                     "\"Right\""
                   ]
@@ -3065,9 +2128,20 @@
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "DinoVita",
+                    "Blue",
                     "Flippable",
                     "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "Animation",
+                    "=",
+                    "\"Walk\""
                   ]
                 }
               ]
@@ -3091,9 +2165,46 @@
                     "value": "PlatformBehavior::SimulateControl"
                   },
                   "parameters": [
-                    "DinoVita",
+                    "Blue",
                     "PlatformerObject",
                     "\"Jump\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "Animation",
+                    "=",
+                    "\"Jump\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnyKeyReleased"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
                   ]
                 }
               ]
@@ -3129,7 +2240,7 @@
                     "value": "PlatformBehavior::SimulateControl"
                   },
                   "parameters": [
-                    "DinoLena",
+                    "Red",
                     "PlatformerObject",
                     "\"Left\""
                   ]
@@ -3139,9 +2250,20 @@
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "DinoLena",
+                    "Red",
                     "Flippable",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Red",
+                    "Animation",
+                    "=",
+                    "\"Walk\""
                   ]
                 }
               ]
@@ -3165,7 +2287,7 @@
                     "value": "PlatformBehavior::SimulateControl"
                   },
                   "parameters": [
-                    "DinoLena",
+                    "Red",
                     "PlatformerObject",
                     "\"Right\""
                   ]
@@ -3175,9 +2297,20 @@
                     "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "DinoLena",
+                    "Red",
                     "Flippable",
                     "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Red",
+                    "Animation",
+                    "=",
+                    "\"Walk\""
                   ]
                 }
               ]
@@ -3201,9 +2334,46 @@
                     "value": "PlatformBehavior::SimulateControl"
                   },
                   "parameters": [
-                    "DinoLena",
+                    "Red",
                     "PlatformerObject",
                     "\"Jump\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Red",
+                    "Animation",
+                    "=",
+                    "\"Jump\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnyKeyReleased"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Red",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
                   ]
                 }
               ]
