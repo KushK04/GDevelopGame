@@ -1297,6 +1297,15 @@
         "name": "Door",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite4",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1328,7 +1337,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.511778403521034,
+        "zoomFactor": 0.5290357402157022,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1552,12 +1561,11 @@
           "depth": 1,
           "height": 118,
           "layer": "Retry",
-          "locked": true,
           "name": "Character_Died",
           "persistentUuid": "36b405ff-3667-442b-b5e5-77621bc8890e",
           "width": 1024,
-          "x": 128,
-          "y": 145,
+          "x": 150,
+          "y": 134,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1602,6 +1610,7 @@
           "depth": 7,
           "height": 233,
           "layer": "Retry",
+          "locked": true,
           "name": "SkullAndBones",
           "persistentUuid": "5df5d2d4-3185-4d4a-962b-f23fa83fc480",
           "width": 233,
@@ -1872,6 +1881,54 @@
           "x": 1073,
           "y": 475,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 19,
+          "layer": "UI",
+          "name": "Door_Text",
+          "persistentUuid": "1b315be2-bc64-4de3-a1d9-de3e8c582b62",
+          "width": 203,
+          "x": 1010,
+          "y": 462,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 766,
+          "layer": "Level Complete",
+          "name": "Level_Complete_Background",
+          "persistentUuid": "c6a66af9-5912-4a31-8245-00c174214eac",
+          "width": 1324,
+          "x": -17,
+          "y": -13,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 157,
+          "layer": "Level Complete",
+          "name": "Level_Complete",
+          "persistentUuid": "96b84b87-b6e3-4ceb-add1-c43b8c469f9b",
+          "width": 1214,
+          "x": 36,
+          "y": 234,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2801,10 +2858,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "One of the Characters Have Died!",
+          "string": "A Character Has Been Killed!",
           "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "left",
-          "characterSize": 100,
+          "characterSize": 110,
           "color": {
             "b": 0,
             "g": 0,
@@ -2824,10 +2881,10 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "One of the Characters Have Died!",
+            "text": "A Character Has Been Killed!",
             "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
             "textAlignment": "left",
-            "characterSize": 100,
+            "characterSize": 110,
             "color": "255;0;0"
           }
         },
@@ -3450,11 +3507,115 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Door_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press \"E\" to use Key! Both Characters must be present.",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press \"E\" to use Key! Both Characters must be present.",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "characterSize": 30,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Level_Complete_Background",
+          "texture": "NewTiledSprite4",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Level_Complete",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Level Completed!",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 225,
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Level Completed!",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "characterSize": 225,
+            "color": "245;166;35"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Level Complete",
+            "children": [
+              {
+                "objectName": "Level_Complete_Background"
+              },
+              {
+                "objectName": "Level_Complete"
+              }
+            ]
+          },
           {
             "folderName": "GameOver",
             "children": [
@@ -3480,6 +3641,9 @@
               },
               {
                 "objectName": "Collect_Key"
+              },
+              {
+                "objectName": "Door_Text"
               }
             ]
           },
@@ -3562,6 +3726,15 @@
               "parameters": [
                 "",
                 "\"Retry\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Level Complete\""
               ]
             }
           ]
@@ -4017,6 +4190,15 @@
             },
             {
               "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Retry\""
+              ]
+            },
+            {
+              "type": {
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
@@ -4386,10 +4568,11 @@
                 },
                 {
                   "type": {
-                    "value": "Cache"
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "Collect_Key"
+                    "Collect_Key",
+                    ""
                   ]
                 }
               ]
@@ -4433,6 +4616,211 @@
               },
               "parameters": [
                 "Collect_Key"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Blue",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Red",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Keys",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Door_Text",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Door",
+                "Blue",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Door",
+                "Red",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Door_Text"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Door",
+                "Blue",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Door",
+                "Red",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Keys",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Level Complete\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Level_Complete_Background",
+                "Opacity",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Door_Text",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Blue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Red",
+                ""
               ]
             }
           ]
@@ -4561,6 +4949,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Retry",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Level Complete",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
