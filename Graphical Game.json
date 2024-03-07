@@ -5241,7 +5241,14 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -5251,7 +5258,7 @@
                     "",
                     "GDevelopBGM.wav",
                     "yes",
-                    "5",
+                    "50",
                     ""
                   ]
                 }
