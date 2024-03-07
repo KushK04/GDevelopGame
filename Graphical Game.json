@@ -1471,6 +1471,16 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/8de1326f11fd4624ad095be5dcaf91ec69947adbb523a5627ee1e50ebae5a0f7_Down-Arrow.png",
           "name": "Down-Arrow.png"
         }
+      },
+      {
+        "file": "walk.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "walk.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1502,7 +1512,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3797121001948138,
+        "zoomFactor": 0.40575189059440453,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4468,7 +4478,7 @@
               },
               "parameters": [
                 "",
-                "21d750d297a89546f0cd483a7c3174e1002ba71a7b9fd40eb075ea54f36ec33d_Walk_04.wav"
+                "walk.wav"
               ]
             },
             {
@@ -4863,7 +4873,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "SFX",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4913,7 +4922,7 @@
                   },
                   "parameters": [
                     "",
-                    "21d750d297a89546f0cd483a7c3174e1002ba71a7b9fd40eb075ea54f36ec33d_Walk_04.wav",
+                    "walk.wav",
                     "",
                     "50",
                     ""
@@ -4966,7 +4975,7 @@
                   },
                   "parameters": [
                     "",
-                    "21d750d297a89546f0cd483a7c3174e1002ba71a7b9fd40eb075ea54f36ec33d_Walk_04.wav",
+                    "walk.wav",
                     "",
                     "50",
                     ""
