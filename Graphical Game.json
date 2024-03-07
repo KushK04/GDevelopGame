@@ -4452,6 +4452,69 @@
                 "",
                 "GDevelopBGM.wav"
               ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Powerup 1 (1).wav"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "21d750d297a89546f0cd483a7c3174e1002ba71a7b9fd40eb075ea54f36ec33d_Walk_04.wav"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Jump 3 (1).wav"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Blip_select 9.wav"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Hit_hurt 3.wav"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Pickup_coin 17.wav"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Random 2.wav"
+              ]
             }
           ]
         },
