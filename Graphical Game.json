@@ -4525,6 +4525,14 @@
                 "",
                 "Random 2.wav"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayerAuthentication::HideAuthenticationBanner"
+              },
+              "parameters": [
+                ""
+              ]
             }
           ]
         },
