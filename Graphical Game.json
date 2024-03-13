@@ -3175,6 +3175,85 @@
         "name": "NewSprite18",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BG.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BG2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BG2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Full Fountain Blue_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Full Fountain Blue_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/79eaea23b909c7b88b43d31616d39c8f572097299ea9e4b277c69f135572da6a_Full Fountain Blue_1.png",
+          "name": "Full Fountain Blue_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Full Fountain Blue_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Full Fountain Blue_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/86ca6c041e0761daa2ed99acfa4b151b66eba0a5589a7e4425a6b65fa47e09ec_Full Fountain Blue_2.png",
+          "name": "Full Fountain Blue_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Full Fountain Blue_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Full Fountain Blue_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/d19da573471f673ec2b195c8b8372dea8012b7c47af1dfeaa5eecd68b6a1266b_Full Fountain Blue_3.png",
+          "name": "Full Fountain Blue_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cave Entrance.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cave Entrance.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/35605ddaebe12c9d0a47439069f5aca6e75ff18735f2dae0f537179787df771f_Cave Entrance.png",
+          "name": "Cave Entrance.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3186,6 +3265,2654 @@
   "objectsGroups": [],
   "variables": [],
   "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Secrets_32of_32Totumal",
+      "name": "Secrets of Totumal",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4481978045410547,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 765,
+          "layer": "Background",
+          "name": "BG",
+          "persistentUuid": "f22efd8c-b166-44db-85df-841a8086d43c",
+          "width": 1434,
+          "x": 540,
+          "y": -6,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 763,
+          "layer": "Background",
+          "name": "BG",
+          "persistentUuid": "61ab325b-ca8f-47bd-84f4-fa910166f272",
+          "width": 1430,
+          "x": -414,
+          "y": 4,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 254,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "2ce94787-1372-4fea-8d58-124affeacd4d",
+          "width": 1469,
+          "x": -106,
+          "y": 683,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 788,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "edf03332-8bb6-44c2-b658-f3efadd71781",
+          "width": 120,
+          "x": -120,
+          "y": -76,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 818,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "0fb53d4e-8e56-4ac2-9a2b-2cbf8334173a",
+          "width": 120,
+          "x": 1281,
+          "y": -86,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 8,
+          "height": 254,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "6844ec82-7d8d-4cc7-afda-a83136ff640b",
+          "width": 1652,
+          "x": -133,
+          "y": -257,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 210,
+          "layer": "",
+          "name": "FullFountainBlue",
+          "persistentUuid": "4b99d922-cc80-4f74-aa17-94bb844a6cda",
+          "width": 70,
+          "x": 866,
+          "y": 476,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 5,
+          "height": 210,
+          "layer": "",
+          "name": "FullFountainBlue",
+          "persistentUuid": "2f4c189c-8a38-46c1-9a68-1c998a05be81",
+          "width": 70,
+          "x": 1043,
+          "y": 476,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 211,
+          "layer": "",
+          "name": "Cave",
+          "persistentUuid": "359d1d14-f23a-4956-af89-778e134a17e3",
+          "width": 211,
+          "x": 873,
+          "y": 475,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 208,
+          "layer": "UI",
+          "name": "Title",
+          "persistentUuid": "bc35c137-e474-422b-8aa5-56a2e29f0b19",
+          "width": 634,
+          "x": -24,
+          "y": -3,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "layer": "",
+          "name": "Red",
+          "persistentUuid": "aa8dcd0f-ba5a-4147-a1a9-5a717ceebe34",
+          "width": 50,
+          "x": 97,
+          "y": 633,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 50,
+          "layer": "",
+          "name": "Blue",
+          "persistentUuid": "7f02b430-7bc0-4306-89ff-4f80977b7583",
+          "width": 50,
+          "x": 144,
+          "y": 633,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "layer": "Dialogue",
+          "name": "Frame",
+          "persistentUuid": "401163b6-0ae9-466b-bb62-462c88c37ee8",
+          "width": 7,
+          "x": 238,
+          "y": 633,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "layer": "Dialogue",
+          "name": "Frame",
+          "persistentUuid": "203e5587-796d-4136-ac93-8e65c56056f8",
+          "width": 7,
+          "x": 1122,
+          "y": 633,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 889,
+          "layer": "Dialogue",
+          "name": "Frame",
+          "persistentUuid": "bf4714cf-9abd-4012-98e6-517ce84bbd8d",
+          "width": 7,
+          "x": 680,
+          "y": 192,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 891,
+          "layer": "Dialogue",
+          "name": "Frame",
+          "persistentUuid": "d297ce1b-f49d-4a86-ac6c-9329f42a39a5",
+          "width": 7,
+          "x": 680,
+          "y": 271,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "layer": "Dialogue",
+          "name": "Dialogue_Box",
+          "persistentUuid": "b7d359fe-12dd-4f19-8422-e5d72b97c37f",
+          "width": 880,
+          "x": 244,
+          "y": 637,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "Dialogue",
+          "name": "Dialogue_1",
+          "persistentUuid": "739b9b33-7c1e-432c-b0c7-fdd19b73d1f4",
+          "width": 1173,
+          "x": 93,
+          "y": 649,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 82,
+          "layer": "Dialogue",
+          "name": "Blue_s_Head",
+          "persistentUuid": "b61f0027-3f0a-462c-b174-5e1176ec38f8",
+          "width": 82,
+          "x": 7,
+          "y": 649,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Dialogue",
+          "name": "Dialogue",
+          "persistentUuid": "c4396325-fc6d-4fe2-b9ac-9fb156ca900e",
+          "width": 0,
+          "x": 266,
+          "y": 642,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "layer": "UI",
+          "name": "CaveText",
+          "persistentUuid": "3698a286-7daf-403b-af5b-adfe07e97421",
+          "width": 228,
+          "x": 879,
+          "y": 467,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BG",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "BG",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Overworld\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":0,\\\"height\\\":320,\\\"width\\\":600,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAFACAYAAABgCwK3AAAAAXNSR0IArs4c6QAAD+xJREFUeF7t1jENACAQBEFQTIVnXECChi3nBVwx+WLnOvsOR4AAAQIECBAgkAlMgZVZGiJAgAABAgQIfAGB5REIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEBAYPkBAgQIECBAgEAsILBiUHMECBAgQIAAAYHlBwgQIECAAAECsYDAikHNESBAgAABAgQElh8gQIAAAQIECMQCAisGNUeAAAECBAgQEFh+gAABAgQIECAQCwisGNQcAQIECBAgQEBg+QECBAgQIECAQCwgsGJQcwQIECBAgAABgeUHCBAgQIAAAQKxgMCKQc0RIECAAAECBASWHyBAgAABAgQIxAICKwY1R4AAAQIECBAQWH6AAAECBAgQIBALCKwY1BwBAgQIECBAQGD5AQIECBAgQIBALCCwYlBzBAgQIECAAAGB5QcIECBAgAABArGAwIpBzREgQIAAAQIEBJYfIECAAAECBAjEAgIrBjVHgAABAgQIEBBYfoAAAQIECBAgEAsIrBjUHAECBAgQIEDgARdBfy7xZtAqAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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eBZWl/X7NQxuPgIECBAgMLZAZGBdyR/9XNb1z9NCS1iNfbPYHQECBAgQmCoQHVhTQ+vIU61XUeXEauql6HUECBAgQGAcgYrAmvLY8P1Itj7ZmhJV1/V4HDjOzWInBAgQIEBgqkBNYM05zbq3+aXRNSem3n+vsJp6CXodAQIECBAYT6AusN6P4NXPaO09LlG1t7jvI0CAAAECmQLVgfXRU621RiKs1pL0OQQIECBAYAyBIQLrdhRbn2wJqjEufrsgQIAAAQJbCQwZWPewlkaXmNrq0vO5BAgQIEBgXIHTBNa4I7QzAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE1AYKVNxHoIECBAgACBegGBVT9CGyBAgAABAgTSBARW2kSshwABAgQIEKgXEFj1I7QBAgQIECBAIE3gf3RlYn1rnwrLAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 4\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAFACAYAAABgCwK3AAAAAXNSR0IArs4c6QAAHy9JREFUeF7t3dvRI7e1BtBRCA5CcehRVcpAEToDV/nRcTgIh2AXNcMxh9Mk+wJgb2ys83TkaeKyNrr5Ed3k/8sX/0eAAAECBAgQINBU4JemrWmMAAECBAgQIEDgi4BlERAgQIAAAQIEGgsIWI1BNUeAAAECBAgQELCsAQIECBAgQIBAYwEBqzGo5ggQIECAAAECApY1QIAAAQIECBBoLCBgNQbVHAECBAgQIEBAwLIGCBAgQIAAAQKNBQSsxqCaI0CAAAECBAgIWNYAAQIECBAgQKCxgIDVGFRzBAgQIECAAAEByxogQIAAAQIECDQWELAag2qOAAECBAgQICBgWQMECBAgQIAAgcYCAlZjUM0RIECAAAECBAQsa4AAAQIECBAg0FhAwGoMqjkCBAgQIECAgIBlDRAgQIAAAQIEGgsIWI1BNUeAAAECBAgQELCsAQIECBAgQIBAYwEBqzGo5ggQIECAAAECApY1QIAAAQIECBBoLCBgNQbVHAECBAgQIEBAwLIGCBAgQIAAAQKNBQSsxqCaI0CAAAECBAgIWNYAAQIECBAgQKCxgIDVGFRzBAgQIECAAAEByxogQIAAAQIECDQWELAag2qOAAECBAgQICBgWQMECBAgQIAAgcYCAlZjUM0RIECAAAECBAQsa4AAAQIECBAg0FhAwGoMqjkCBAgQIECAgIBlDRAgQIAAAQIEGgsIWI1BNUeAAAECBAgQELCsAQIECBAgQIBAYwEBqzGo5ggQIECAAAECApY1QOCDwD//8ff/tkT6/Y8/nXctQbVFgACBhAIu9AmLYkg5BFoHq1ezErhy1NsoCBAg0FJAwGqpqa0SAlvB6m+//dpkbv/5179ftiNoNSHWCAECBFIICFgpymAQGQR6BqtX83sOXEJWhpVgDAQIELguIGBdN9RCAYHncNVqx2ovjaC1V8pxBAgQmENAwJqjTkbZUeAxXI0OVo/TErI6FlnTBAgQGCwgYA0Gr9LdqAfAH7163D7LEq4ErSpnhnkQIEDgq4CAZSXsFogIVXsGdzZ4ZQxX9/nazdpTeccQIEAgr4CAlbc2aUb2KliNvJ327tt3Z3a5Moerrd2ssyEyzSIyEAIECCwmIGAtVvCj041++PvTeF8Fr3eBZJZwdZv74/yErE+rwb8TIEAgj4CAlacW6UYyUxB5DiO3/34VSO7zGrkDd6W495AlYF1R9FoCBAiMFRCwxnpP1dtsQeSO++n5pdnmZRdrqtPGYAkQIPCXgIBlIbwUmC2IPE7kVciabVfuOTT23sU68kWG3mNxahIgQGBmAQFr5up1HPusQeSZ5NUzWrPcHuwdsI4EqnfLTdjqeDJqmgCBKQUErCnL1n/QM+9efQpZs4Wr23xaPYe1J1Dt8fn0rU6Bq/85qgcCBHILCFi56xM2ukoB6zGg3P7/PQEiDP5Fx1cC1qdQddXDH7DOtlqMhwCBDAICVoYqJBxDtYD1GLKuBoqIcp0JWFG/X7YVuOxoRawafRIgECkgYEXqJ+67YsBKzP1xaHsDVlSo2pqAoPWxrA4gQKCwgIBVuLhXpiZgXdFr/9p3AevdLcAMu3WCVvv1oEUCBPILCFj5a3RphJ+ev7k3/nwLR8C6xN78xVsBK9Nu1Z4JC1p7lBxDgEAVAQGrSiUf5rE3VO2ZeoYdkD3jrH7Mc8DK/ieM3tVD0Kq+Ws2PAIGbgIBVaB2c3dF49y0wASvHAnkMWFV/o8yD8DnWmlEQINBGQMBq4xjWytlQ9WnA9zd0AeuT1Jh/3wrBVWrjTwGNWUN6IUBgrICANda7WW+9gtV9gI9velXeyJvhD26ocrjaWm92sgYvMN0RINBFQMDqwtqv0a1g1SMACVj9ani05VVqYSfr6MpwPAECmQUErMzV+Ta23rtVrwjcJsyxOFaqw6s/0p2jEkZBgACB/QIC1n6r4UdGBavhE9UhgQcBIctyIECggoCAlbSKM38NPympYU0m4JbhZAUzXAIEfhAQsBIuiCpfw09Ia0iTCQhZkxXMcAkQ+C4gYCVaDHatEhXDUNII7P07jGkGbCAECBDwQ6N51oBwlacWRpJLwC5WrnoYDQEC+wTsYO1z6n6Uv/3XnVgHEwsIWRMXz9AJLCogYCUovGeuEhTBENILuFWYvkQGSOCjwN6/lVvhB4cFrI/Lof8Bdq/6G+thfgG7WPPX0AzWFNgbql7pzBq2BKwE613ASlAEQ5hCQMiaokwGubjAp0D16a+PbP15sBvpbEFLwAo+EdweDC6A7qcTcKtwupIZ8AICV0PVK6KZf3hYwApe+Havggug++kE7GJNVzIDLiww6i+OzBi0BKzghS9gBRdA91MK2MWasmwGXURgVKh65tq6dTjqtuGnHbqt0gpYwQtewAougO6nFLCLNWXZDHpygahg9SlotQ5ZZ8KUgJVwcQtYCYtiSFMI2MWaokwGWUBgK3B8elB9xLR7fNB6F66OztkO1ohV8KYPASu4ALqfVqDHxXVaDAMn0Ekg+18ZaXkdaP2lMwGr06Lc26yAtVfKcQR+FrCLZVUQ6CfQOnD0GmmL60CPuQpYvSq+s10BayeUwwhsCLT89AqYAIGvAtl3rZ7rdPUbhj3C1W2MAlbwGSVgBRdA99MLtPj0Oj2CCUwt8O65n9YPcH+Cmi1c3edzNmT1ClcC1qeVNuDfBawByLooLSBglS5vmcld/WbaiKDVM2yMKuTR60HP92A7WI2qfvTkuZ8sPYvbaGqaIZBa4OgFNfVkDK6UwJH3ha1vqI363adZd622FsuRxwZ6B0oB68TpfOSkOdL80a+AHmnbsQSqCghYVSs757xafs3/1e2v2//eakerUrh69npn1DtcuUV48Pz9FKz2BqRXf8hy7+sPDtvhBEoLCFilyzvN5Eb8COfZ54zeIVa8i/JpF2tEuBKwdp66vX9k7b4YBKydBXEYgQcBActyiBYYvQv0KUDs9RgVNPaOp+Vxr4xGztktwg8VHX3itFxg2iKwgoCAtUKV884x6j2iRciquHv1uFKerw0jw5UdrAPhyu5S3gucka0tIGCtXf+o2UcFq60Acf/fjjyXNTpsRNTpVcAa9X5uB2uj6hlOnIjFqE8CMwoIWDNWbe4xZ3qPOPNc1grh6rbCop93FrCezvNMJ87clyCjJzBGQMAa46yX/wtkvLW295bhKuHqXq3nkDVq98otwjfhamQRXLgIEDgnsPdN5VzrXkXgZ4HMAeXT+ZB57L3W2qPJ6Pd1O1gPVc34qaTXotMugZkFXm39P8/pyDMpM3sY+ziB7O8T70JW9rH3qmLUN/UFLAGr15rWLoEuAnvD1WPnglaXUizZ6AwhZStkrbh7Fb1ABaxvFbD4opei/gnsE9j7TMWoPzOyb9SOqiAw0/tE9DfoKtT76hwErKeANfoe7dUCej2BFQVubx57z9Uz37Ja0dSc3wvMFK5uMxGw4le0gPXly5fZTpz4ZWMEBOYTELTmq1mWEc/4HhH9EwVZahc5DgHrIWDt/UQcWTB9EyBwXkDIOm+38itneO5qqz57b6evXNuecxewBKye60vbBFIKfPo6e8pBG1SIwIy7V49QUd+gCylWsk4FLAEr2ZI0HAJjBISsMc6z9zLr7tXs7hXGL2AJWBXWsTkQOCXgluEptmVeNPvu1TKFSjpRAUvASro0DYvAGAEha4zzjL3YvZqxannGLGAJWHlWo5EQCBRwyzAQP2HXdq8SFmWyIQlYAtZkS9ZwCfQTsJvVz3a2lu1ezVaxfOMVsASsfKvSiAgECghZgfhJurZ7laQQkw9DwPJDo5MvYcMn0EfALcM+rjO0avdqhirlH6OA9a1GTqj8i9UICYwWeP5zI6P711+MgPeDGPdqvQpYTwHr9p9+0b3aMjcfAucE7GKdc5v5VW4Pzly9XGMXsB7q4cTKtTiNhkAGAbtYGaowbgx2r8ZZV+9JwHqq8GPIsptVffmbH4HPAnaxPhtVOcKH7CqVzDEPAWvjFuFWadw2zLFgjYJAhIBdrAj18X3avRpvXrnHpQPW827Vu0ILWJVPA3Mj8F7ALlb9FWL3qn6NR89w2YC1Fa62QpS/RD56SeqPQE4BIStnXVqNyu5VK0nt3AWWC1iesbL4CRA4K+BW4Vm53K/zvpC7PrOObumA5bbfrMvWuAnECAhYMe6te/30eIj3htbia7a3bMByAq254M2awBUBAeuKXsxrP4Wp+6i8J8TUp3KvAlbl6pobAQJNBQSsppxdGhOourBq9ITAUgHLt0ROrBAvIUDgu4CAlW8x7AlUdqfy1W2FES0ZsJxsKyxtcyTQXkDAam96tsV3wco1/qyq17UUELBaamqLAIHSAgJWfHn3/sRO/EiNYHWBJQPWreg+4ay+9M2fwDEBv4N1zKv10YJVa1Ht9RYQsHoLa58AgRICdq9iyihYxbjr9brAUgHrxuUH5a4vGi0QWE3A7tX4igtW48312FZAwPrt17aiWiNAoJyA3atxJRWsxlnrqa/A0gHLc1h9F5fWCVQQsHs1roruMIyz1lN/gWUClk9F/ReTHghUExCuxlXU7xSOs9bTGIElAtar30uxgzVmkemFwIwCwtW4qglX46z1NE6gfMBy4o5bTHoiUEnAc1f9q+mWYH9jPcQJlA5YwlXcwtIzgZkF7F71r55w1d9YD7ECZQOWcBW7sPROYFYB4ap/5Vyf+xvrIV6gZMBy8sYvLCMgMJvAY7C6jf33P/4seX2Mrovrc3QF9D9KoNQFxJbzqGWjHwJ1BJ6DlXDVt7b367QvGfV11nq8QJmAJVzFLyYjIDCTgGA1vlp2r8ab6zFOoETActLGLSA9E8go8Bye7rslW6HKjtWYCrpOj3HWSx6B6QOWkzbPYjISAlkEXgWp5/F5zmpcxdwaHGetpxwC0wYstwRzLCCjIJBR4F3AEqrGV8wH4fHmeowXmDJgCVfxC8cICMwk4EdD46olXMXZ6zlWYOqA5VsosYtH7wRmEfDbVnGVcmswzl7PsQLTBSyfhmIXjN4JzCpgF2t85Vyvx5vrMY/AtAHL7lWeRWQkBGYQsIs1vkp2r8ab6zGPwFQBy6ehPAvHSAjMKGAXa1zVXK/HWespp8CUAcvuVc7FZFQEsgvYxRpXIbtX46z1lFNAwMpZF6MiQKCTgF2sTrBPzQpYY5z1kldgmoBluznvIjIyAjMJCFj9q+V63d9YD/kFpgtYbg/mX1RGSCCzgNuE/atj96q/sR7yCwhY+WtkhAQINBawi9UY1O3BvqBan1JgioBlu3nKtWXQBNIKCFj9SuN63c9Wy3MJTBWw3B6ca3EZLYGsAgJWv8q4PdjPVstzCQhYc9XLaAkQaCAgYDVAfNGEgNXPVstzCQhYc9XLaAkQaCAgYDVAFLD6IWq5hICAVaKMJkGAwBEBAeuI1rFj7WAd83J0XQEBq25tzYwAgRcCAlafpeEB9z6uWp1TQMCas25GTYDABQEB6wLem5faverjqtU5BQSsOetm1AQIXBAQsC7gCVh98LRaTkDAKldSEyJA4J2AX3Lvtz7sYPWz1fJ8AgLWfDUzYgIETgoIVyfhdr5MwNoJ5bAlBASsJcpskgQICFf914CA1d9YD/MICFiJavX4BuBX6xMVxlCmFxCuxpRQwBrjrJc5BASsBHV6vPjfhyNgJSiMIZQQEK7GldHPNIyz1lN+gakC1o2zUvDYClYCVv6TxgjnEHg+v37/488prndz6L4epV2s2Sto/K0EprngVDppt4LV7eLv01+rZa2dlQVenV8rm4yce6Vr9Ug3fdUTmC5gzbyL9enC78JU7wQzozECr3aD7VqN8X/sxXVsvLkecwpME7BufLPu8HwKVvel4cKU8yQxqrwCglW+2riO5auJEcUITBWwZgpZRy/8s4bHmGWr19UF9n5oWd0pYv6uZRHq+swoMF3Ayhqy3j2wfhvzp1sVPvVlPD2MKYvAu/Pr07mVZQ4rjcP1bKVqm+srgSkD1nPIuv336G8XfgpUe0LVY1FckJykBL4K7Dm3jp5fbMcK2MUa6623nALTBqytkPVI3Ctw9fokLWDlPEGMqr+AQNXfOKIH17QIdX1mEpg6YN0hHz8tjcRteWvCxWhk5fT1LDD6x24/haqW55Zqxwi4psW46zWPQImA9czZO3D1uPi7GL0/KfwZob4XjU+Bp8WOcK/d374yWj8r4DbhWTmvqyJQMmDNWBwBS8CKXrefQtZ9fHvC1p62enxQiTbU/48CrmtWxMoCAlaS6rsQvS7E6NtXSZZEyDDu1o/hp+WOsFAVUtawTl3Xwuh1nEBAwEpQhNsQXIg+B6zHPye0ZxclSWmnGsZWwHqcwJGwJUxNVfoug3WbsAurRicRELCSFErA2i7E4+6Vv9fYf7F+Clj9R6CHagJCVrWKms9eAQFrr1Tn4wSsn4Gfw9X9CFb9FqOA1c925ZaFrJWrv+7cBawktRcaXges51tNLtb9Fq2A1c929Zadt6uvgPXmL2AlqbmA9WMhXu1ePe9i3f7b81jtFrGA1c5SSz8LCFlWxUoCAlaSagtY2wHr3YPSzNovXgGrvakWfxRw3loRqwgIWEkq7aLz/0J82r2yi9Vv0QpY/Wy1/FXALpaVsIqAgJWk0gLWzwFrz9f8ubVdwAJWW0+tbQs8/9yH2/xWSkUBAStJVQWFr4XYu3tlF6v9wj1q334EWlxJQMhaqdprzlXASlJ32+bHw5WQ1Xbx2r1q66m1fQKuffucHDWfgICVqGYr72Jd3T1Z2a7VEhawWklq56iA3ayjYo6fQUDASlSllT/JXX1zX9muxRK+GnBbjEEbawsIWWvXv+LsBaxkVV0tKDz/Iec9D7a/KpkL9PnFfDXgnu/ZKwn8KDDDeXw/Xzycb/W+ExCwkq2PGS4uLcieg9WtzSvh6j6mVfxa1OCxDQGrtaj2rghkPo8fr10C1pUq13+tgJW0xpkvMFfJWu5a7dnNchF8XzG3B6+uaK/vJZDpOrj1odC1pVfla7QrYCWu4/PF5TbU2U/okW/mq91uPbuU7V6dlfO6EQLR18GtYFXhWjyidqv3IWBNsAKiLzCtiEaGq61bhrOH01Z12Lo12OoWbY8xapPATWDrOniXaXluvwpUz1Vo2acK1xQQsCaq66gLTCuSVxeqFs9aHRmjnaxtrYjAe6RujiWwJfDuOthL7H7N8nMwvYRrtitgTVjX7EHr3SfA0eFqayfL9v5XFbcGJzz5DfkngR6B69V1SsCyAI8ICFhHtJIeu/cC03tLu9c3A1uxZ3pgttWczrZj9+qsnNetKmAnfNXKn5+3gHXeLt0r9wat54GfDV4Zd6r2FGXloDXiG5x7auAYArMJ2L2arWLx4xWw4mswZARnw9fRwUXdAjw6zipfHNg77+y7i3vn4TgCEQJ2ryLU5+9TwJq/hpdmcDV4zRKoXiGtELTsWl06RbyYwPdvMJ7d7Ue4poCAtWbdzfpJoGLQEqwscwJtBNwebOO4WisC1moVN9+3AlWClnBloRNoI+D2YBvHFVsRsFasujl/FMj+UxhbE/Cc1ceyOoDAYQG7V4fJvOCbgIBlKRB4I7D3GbWIZzM+/eL07M/HWZgEMggIWBmqMOcYBKw562bUQQJ7AlfvsDXrz2MElUy3BC4JCFiX+JZ+sYC1dPlNvoXAntDVop+tNuxS9ZLVLoEf//5h7w9OvOsJCFj1ampGgQKjwpZgFVhkXS8jYPdqmVJ3maiA1YVVowQIECAws4BvD85cvRxjF7By1MEoCBAgQCCRgN2rRMWYdCgC1qSFM2wCBAgQ6CcgYPWzXaVlAWuVSpsnAQIECOwScHtwF5ODPggIWJYIAQIECBB4ELB7ZTm0EBCwWihqgwABAgTKCAhYZUoZOhEBK5Rf5wQIECCQTUDAylaROccjYM1ZN6MmQIAAgQ4Cnr/qgLpokwLWooU3bQIECBD4WcDulVXRSkDAaiWpHQIECBCYXkDAmr6EaSYgYKUphYEQIECAQLSAgBVdgTr9C1h1amkmBAgQIHBRQMC6COjl3wUELIuBAAECBAh8ExCwLIVWAgJWK0ntECBAgMD0AgLW9CVMMwEBK00pDIQAAQIEogUErOgK1OlfwKpTSzMhQIAAgYsCAtZFQC//LiBgWQwECBAgQOCbgIBlKbQSELBaSWqHAAECBKYXELCmL2GaCQhYaUphIAQIECAQLSBgffnyn3/9+68y/O23X6PLMXX/AtbU5TN4AgQIEGgpsHrAuocrAev6qhKwrhtqgQABAgSKCAhYX3evBKzrC1rAum6oBQIECBAoIrBywHrcvRKwri9oAeu6oRYIECBAoIjAPWCtFjCew9Vq8++xfAWsHqraJECAAIFpBVbbxXoMV7//8ecvq81/70I9+vC/gLVX1nEECBAgsITASrtYz+HqVmABa3uZC1hLnP4mSYAAAQI9BaqHjOdbgredq7tn9bmfWTdnvl1pB+uMtNcQIECAQGmBqrtYW89aPYYrO1jvd69u/7r398EErNKXCJMjQIAAgbMC1ULWu12rRyM7WD+umLPfrhSwzp55XkeAAAEC5QUqhI29wcotws+7V/cj9uxiCVjlLw8mSIAAAQJnBWbexdpzO3DLZeY5n63zu9fdHY9+w1LA6lENbRIgQIBAGYHZAsfZYOU24c9L9spPWAhYZS4BJkKAAAECvQRmCFktgtXzbcLbf++5HdbLPbrdx92r21iO3DIWsKKrp38CBAgQmEIgY8jaClU3zOdvBp4BPhImzrSf/TXvfiNsT/AUsLJX2PgIECBAII3AY8ja8ybbY+CvQlWrYGUX68uXrXB11EXA6rH6tUmAAAECZQWeQ9Z9or1vpfXcrXpVrFV3sZ5vDT777NnNFLDKXgJMjAABAgR6CrwKWq/6PBPAIkLV4/j3BImexhFtv9u9emWzFbIFrIjq6ZMAAQIESgkcDVtnJ9/i2aqjfa8UsvaGq7vhu7oLWEdXmuMJECBAgMBBgSsBLCJUnbkldpAk1eFHf4z1nc/93wSsVCU2GAIECBAgkFMgwwP+PWSuhqtXYUvA6lEtbRIgQIAAgYICWztxZ54ty0DTOlg9z0nAylBlYyBAgAABAhMJzBy0Wv4g67uSCVgTLWhDJUCAAAECmQSifrLijMGoYHUfm4B1pkpeQ4AAAQIECHwXOPIQ/+hbiqODlYDlxCBAgAABAgSaC2QJW1HBSsBqvqQ0SIAAAQIECLwTOBK+ttrZs/sVHawELOcAAQIECBAgECZwNWztGXjkb4h5BmtPhRxDgAABAgQIhAocCWSRwcoOVugy0TkBAgQIECBQWcAOVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiECAlYIu04JECBAgACBygICVuXqmhsBAgQIECAQIiBghbDrlAABAgQIEKgsIGBVrq65ESBAgAABAiEC/wNx9F2AyTvkAwAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"BG2\"],\"name\":\"BG\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BG2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 600,
+                            "y": 0
+                          },
+                          {
+                            "x": 600,
+                            "y": 320
+                          },
+                          {
+                            "x": 0,
+                            "y": 320
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Ground",
+          "texture": "f0fcdea023107dc7c4263d38d52d5f6f74a5b779887760a1580a613f7f4b2af0_tiled_Grass.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "d3dd6c400fba9c7aabb1add0a70bfb25b3239d7ed02fcc41f946cbf773fac79f",
+          "name": "FullFountainBlue",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Full Fountain Blue_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 9
+                          },
+                          {
+                            "x": 16,
+                            "y": 9
+                          },
+                          {
+                            "x": 16,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Full Fountain Blue_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 9
+                          },
+                          {
+                            "x": 16,
+                            "y": 9
+                          },
+                          {
+                            "x": 16,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Full Fountain Blue_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 9
+                          },
+                          {
+                            "x": 16,
+                            "y": 9
+                          },
+                          {
+                            "x": 16,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "56fbb07c61ec330cdc6cd85ce572a339ccb887fe8776b6fc73d970fe4a10e46d",
+          "name": "CaveEntrance",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Cave Entrance.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 0
+                          },
+                          {
+                            "x": 88,
+                            "y": 40
+                          },
+                          {
+                            "x": 0,
+                            "y": 40
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Cave",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite19",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 18,
+                            "y": 23
+                          },
+                          {
+                            "x": 52,
+                            "y": 23
+                          },
+                          {
+                            "x": 52,
+                            "y": 64
+                          },
+                          {
+                            "x": 18,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Title",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Secrets of Totumal",
+          "font": "b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+          "textAlignment": "center",
+          "characterSize": 100,
+          "color": {
+            "b": 226,
+            "g": 144,
+            "r": 74
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Secrets of Totumal",
+            "font": "b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+            "textAlignment": "center",
+            "characterSize": 100,
+            "color": "74;144;226"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Red",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit1Idle\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAihJREFUeF7tWtluBCEM263U///gSu2KB1RKcziQDFmGPi6HE9tkAurzcf5uzcDz1tmf5B/HADc3wTHAMcAAAx+fP+Sq769rDLUaf4CyrEvsghXyOaGlMS8GVuN75ZFkH5sBEIGROaPJI3sjc0bxN1yHG8BCrGUuSqplT8tcFH/TeZgBrIR6f6NX428qfknLzwCt6KVH6EWr4yONImKASPxjAKHxK+RQ4nKiIWL2hGtrovGPAQAD9Cf7agNE4h8DOBlAO8kc0do6ahz9bWNxkdT8e4B6Elf1ABH4CJNvOkc3QBVSO4WVgKgbwCr8NxUWDVs2AHWKtS4eFQqJcDU+EuObz7EboCQsPQVL41ayrJ+RmaumNbZN5uMGaMWQyrynCD1m+32nBKjvD54m3ERoLo0xA2ikeH0GOANcha/hbDCOGcAqqFcVsDagfSOq9SsbCDibAnYLGCmpVtNIbwAr8WcZTr7+GCC5QNHh/TVA39zNNFVcB18zosrzavxothPu/98A1EvaSDlvv9+96FyPIHX91u/5CH5CgaJD+jWA9OgyawDutLe/r8aPZjrp/uMVoC3XksCUeThDWSpABH5SkSLD4nsA7XTWzlwr571QUjXhRJVeBD3xI5lOurd+CyiBS+WZG++vbjNvA6vxk4rnERZugFZQ6URShpiNtDfP1fiz8SdejxmgitomQv0HjjQ+SwJ1RWz31MZn8TddjxtgUwLuntYxwM0d8AIEXi4/HC2R7wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAvBJREFUeF7tmrFOwzAQQJ2iIvUj+IcOTAxlg4GVAX4AiU9A6tiFL2BhB4mZhY0iMSHB31SigqCr6tY1tu/s3MWp6o6E+t2dXy6200qVz05XoNrp7Evyqgiw4xIUARIEmAwGtetr49mslXpy8pMC5gwgof4qJx/YF6ORM+zH6VRJS8DNjxaAO4BYAXLyQ2ydh6QEEvwoASQCiBEgJ5/ClpRAik8WQCoAqgA5+TFsCQkk+SQBYgPgboPbwL85GAZdfrq/JdXaNQgl/1Q+KSjJACgdoOt8XfzD4zNnOh+vz4u/p0qA5d+EzyJAkwA4BJDkD49O6vPPN+Vb+UP8wPdNvs4PJEgRQJrPJoBUAaCAlDtAgg/Fv7weq/nVaRYB2uCjAkgbiHWAnPyYCYA8uB8BbfCDArQRQEiArvAf7iaK8hgI5ZLa/qEDSfJJAkgGQBGgC/yv95cKexRBLpw7IH0DQP5SfLIAUgFQBegCH1uPcE4+sGwBJPhRAkgEECNAF/g6Blfc3O8BXAJw86ME8L2EsYvBVQhXC8QWjXBdmh96GbRtfLIA2CLIPALlKoIpQOGHzyJS608SAPbB8Akdhph3Jtez0NwFFL5M/ckCUCdfr4Q5ugB1G2g/FkDAJH6vv/6hx++8YuVbYzsfZRn4LAdBrmQ4uwC1/TfqQr1+Xf98r4ao9vaVWkrQmO8Ze6NumfibAjgspZzEoQJQ7IdBcvIzTcCqdpn4awECllIOQFxteLEap9i/nHzXHYht/Xy7glUHys1HcsMEaJw/wi8CmAZ5OlWjG0CPT+mCGfjJAuiFls7PXiRK34HsfF8r8byNJPMD41IvuQTk4qNrAF8LMhd5vgBXBzIU+z1rgFb5nhnB8sOuUyfa93/Y+Nj1EB/dBbgmwN5m6RNCswtw7QIK///vITjrTxYAJkJPsG9yTRO5BSh8mfqTBLDvwrYFKPzNLsBZ/ygBzGeJ64WL/bKI66WMFqDw1xXgqj9ZgKYLmfL9blbgD4Gx9l3lS2QxAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"NewSprite9\",\"NewSprite10\",\"NewSprite11\",\"NewSprite12\"],\"name\":\"NewSprite\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit2Walk\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":5,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAl9JREFUeF7tWu1ug0AMg0l7/weu1FUdu3Kk+XCOiFXg/Rwc5hwn54TOE/8uzcB86d1z8xMFcHERUAAUwAADX98/6qr77RhBEb+M/3zAnuRbgfauDehMXUL8Uv5zAkACjNwzKgbk2cg9xH8xgAsgQ2zmXjQYmWdm7r04PiaALKHVZzTx7bKvCTjBf50AetCnR5BBa9dHjCIiAOKvxjDBf40AtOBaQUOCKVUdrSH+Evw+uUD+6wQgMxt8AegIRgRA/G0sQf6PFUAUSEsN0TrtOvo/RIEnxq8RwJNEWYb/ywO0SkD8rXE0PFgsgEZklAUtkxIOFEm+l5kkPtYJJPn3BaBlUeTi0UAh0Sf+exYX858XgHSbfSD3tHpWPyudLfG3bn8n/7gA+mz0ykylCCRmf75rgmn9rycSpPL0x5nmKU60/zEBRCRWHQOWAIjvM5DgHxNA4oG/b1ZVBbIGVBrR6LxEhXTi/WNdwEhJzZLmzQCIb5/7o7OTv3UUAFIFTizA9/FhT8geU2UNYtrztfIszRXxl49qFQLUuJ0m8aNQz3Vnz9P+/JZBtzZF/LXvHzXAsoPpAy+7qPttXiuAN3QZOc8jAxcNeSoJsKqN9/XsIvj2F6SIAE1ZciihfZduXUIUFOLr1UB2Otbx4CVgx63tAaLsaMBROZdC8aqJJSrLT3gewTqCiL8ZL8ddgJaxSPmWyhw1M8Rf5ipRQkYjc4N/XAB9QL2M9Ep81HKhswDi+596E54NE0A/3bPaOKPNGI3527ro+dH1vS8SPT+6/qH4uAD2boDrP5IBCuAjw3LcSz0AhY9cXRYLmmcAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAw5JREFUeF7tmT9OXDEQxr2LQNpDcIctUqAURGlCQUtBLhCJIyBtScMJ0qRPpNRp0gESFRLcBikoeWgi+a0xtucb/3nDe7tbwa7XM998P8/afjOzfW10BWYbrX4r3mwB2HAIsgC4WCy6UN1Wj49Z843NgynpFxtG4k8PD4Oe/bi+NkNAoGnA1PSLAEiJt0S0hkDTgCnqhwFAxLeGAMmhFYBI7DHqhwCQiKcitDBBkkPt+JLYY9NfDYDz/WVyL/fz2yUUKzSJtgFI/LHqh0zhCmDFv/twHITg7urX//dzIeDi09yaBoxZfzUAYuZbIgiCVgBoG0Dxx6qfBWD5/lN3cn9jYkc/u/q0C9Aq/tT1JwEg8Z/PVubpyxELAIHQ4idA04BN0A8B8P3rhUG6QGoXmNP+tQ2w8aesHwbg4fb3DNmM1TyCvRUDCICp6hcBQCt8yJs4FwBtAyj+FPWLAIjdwfutv9bzAB+At2AA8uBqTPphALg9gHsNSn/XKEKoA2gZMFX9EAB0CqBX6ijoGvNqHzDfXT8+/vfEHj3tXJI9QBUAvTzdTWiRfoTawJgh9MMAoObbu/C+C8x3u+7vn17ebGfPGBCCQQ0I5Lk8+GiQY7DvHS2ArC6oACC7GpFzeAjwvgtUAiAbQHT1RfIs1k/xkQ6oBOBLAAKJFhegAACqXXH8AgOoUxXHR/UrAbgGIJEocv4PtcF+I4isgIhRgxmQAKVIvzYATPxhAEDacCsAUQMSOQ4CgBKAWwAAOIsAQH+ClABk9wCUV6gAdqdr8/Y3aeIr4VYdoIIBOTUQ628FAKOfPQXEzPcvevxxWQVI7BWkEGbFZ7oBp9H9vHZ8aRdC44sA4M63XIGAbpscws3f0oBUF6DFwOVWW7s7H/nidmDUfJpDDAB3xduqEEgnahXbLXYsj1wDJGDYZzGhn1v7nsR8CABLvk2UA8AfT/8j3+EKgQDgr1JpMbgc7Och0Nzv1tAbyyUFQU6t2Q6AFqX1uNiTyNRepBUArSCX1LBWtxsNANLi5KwGSQztsf6CyO06z+d/qV0/uXgGAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"Walk\",\"Walk2\",\"Walk3\",\"Walk4\"],\"name\":\"Walk\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walk",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walk2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walk3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walk4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit2jUMP\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":0,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATFJREFUWEftlksOwjAMRFsk7n9gJEBBdXFcf2bSSGUBS5LaL+Oxk3W5+LdenH/5A4wpcLu/3NI9H3Q8+oOlJY8SZWuB2TgAJAGyR8HgAExgYi8GQAT8HI7wyDwAnbR5xELLuvHPHAAveKSa+X8egO2MnwRwoOYooI0nSkzzgARCO4HogMadK+Cdohq3KOg2jHiA9mE2irN1ZxzjAPpkmcxBv0fvjjGA6hVDlAEDIAJ2o7jyS2lCr72q08s6CF3PAbKmO98QgDWXXCqks/cy6BJ4sQ8lsE6PphpSBj3AZL+Otx3qW4Js6IBydlzVBN3Wew8wCtj736qSAag8RwArl3SCV8/MI1EJprwHqjvC65ygm+o2HLlqCc9gAN5D03sBaR8AU7C+jpF2O7kHV+BkoujzN1/QFzB2xJE+AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAZNJREFUWEftl71OAkEQx2cxmPAglkYqCws68QUs5AVMLOgo6aQwvoCNPTyDJSYWNppY0vgWJF7kyBD3GOdmbmeXQzTxqstld/6/+c452PHjdqwPSQCjViuXwIfzebS96AsoftHpiIGbTKcQCxEFUCXuiRDivX9dAry/HYhaZgCLOKreHJ2uxA8OjwuI2dszbARgEZeEPcGPAVCvaQ62DoDep4gjpKkGQinQANBzfLT8mwDaJ938/OURtNbzhccjYBEPAqB472oI2eVZEIBWvlX8O0CjuZ5ui2yVGg8wvhuBJQq08EphF+yvARrNPP/8KO67vX2AReYowOvTgwvVAhoQp6FiPxoALySN4roAtCXE525pHwQB0MKGNUB3Ab5LEAXoV41FdQEermpFGoWYrVg5iKxtyFOAAGIU+EHLJLQMIsGu3A1/EiDUepL36jxIicCvBfCF5p3iHWLthOR1TAWk6bhVAN5mfkLSKNQGYPXOeo7XYTAF3LA2ZFKjEATwXUDJtZ8PvqwsPykmAK3X6/j+D7AETQY7MNIglBQAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"Jump\"],\"name\":\"Jump\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Jump",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Blue",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit1Idle\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAihJREFUeF7tWtluBCEM263U///gSu2KB1RKcziQDFmGPi6HE9tkAurzcf5uzcDz1tmf5B/HADc3wTHAMcAAAx+fP+Sq769rDLUaf4CyrEvsghXyOaGlMS8GVuN75ZFkH5sBEIGROaPJI3sjc0bxN1yHG8BCrGUuSqplT8tcFH/TeZgBrIR6f6NX428qfknLzwCt6KVH6EWr4yONImKASPxjAKHxK+RQ4nKiIWL2hGtrovGPAQAD9Cf7agNE4h8DOBlAO8kc0do6ahz9bWNxkdT8e4B6Elf1ABH4CJNvOkc3QBVSO4WVgKgbwCr8NxUWDVs2AHWKtS4eFQqJcDU+EuObz7EboCQsPQVL41ayrJ+RmaumNbZN5uMGaMWQyrynCD1m+32nBKjvD54m3ERoLo0xA2ikeH0GOANcha/hbDCOGcAqqFcVsDagfSOq9SsbCDibAnYLGCmpVtNIbwAr8WcZTr7+GCC5QNHh/TVA39zNNFVcB18zosrzavxothPu/98A1EvaSDlvv9+96FyPIHX91u/5CH5CgaJD+jWA9OgyawDutLe/r8aPZjrp/uMVoC3XksCUeThDWSpABH5SkSLD4nsA7XTWzlwr571QUjXhRJVeBD3xI5lOurd+CyiBS+WZG++vbjNvA6vxk4rnERZugFZQ6URShpiNtDfP1fiz8SdejxmgitomQv0HjjQ+SwJ1RWz31MZn8TddjxtgUwLuntYxwM0d8AIEXi4/HC2R7wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAuNJREFUeF7tmr1OwzAQgJ2i8jwMiAEhwcTCzMAj8AT8iBGBeAKExM7QmYUNqWJADDwLIxUNclSniXv2nZ27OFXN2Kr57ufL2U4oVP7b6AoUG519Tl5lATZcgixAjAAHdyX4s+l1P/Vk5McFzBhATP1VSr5m713BYX/eKyUtATM/XADmAIIFSMn3sU0ikhII8MMEEAggSICUfApbUgIhPl0AoQDIAqTkh7AlJBDk0wQIDYB7DK4B//Tn0uvy5PmBVmvoKoT8Y/m0oAQDIE2AgfNN8XcPT8B0vt5fq8+jJUDy78JnEaBLABwCSPJ39o/L79GRcu78lVKa72q+yU9LECOANJ9NAKkCVAUk3AESfF38s/MbdfE0TSJAH3xUAGkDsQmQkh/SAJ0H9xLQB98rQB8B+AQYCv/l8VZRlgFfLrHjX08gST5JAMkAKAIMgv/xVmBLUZUL4wnI3ABV/kJ8ugBCAZAFGAIf248wNl+jVgQQ4IcJIBBAkABD4JsYoMCZ3wOAAjDzwwRwvYSxi8FUCHAEYrtG/b003/cyaM34dAGQs3DdFz0GmYrQEiDzvUfR2PqTBKjOwfrPZb59VzKtha1TQOaL1J8uALX5ZifMMAWox8CVVSF2Co3Gy3/0mM8KVr51bXAlS8BneRAEJsM4BbAzOAt/NC7Lv9/6UsXWtlILCTrzHdduxZ2I3xYAsJTyJA5tAMV+fZGU/EQNqGuXiL8UwGcp4W0cOIb1bpxi/6L50B1YXXed+VhupnBS9Uf4WYCmua5J1UXARoNr1HwGL70J+PECmI2WycreJJo9gNQE4OaD69jiQ0gAKt93Xep3gnx0D+Acwc1NnitA80Cmwx6gV76rIVh+2PfURifgo6cAsAH2Mcs8IWxOAaZTQOYDeyDG+tMF0J0wDXY1t3kncAuQ+SL1pwlg78T7FiDz2ychxvqHCdBco6AXLvbLIqaXMvUykPnLCjDVny5A141M/v0gK/APQPQyXTBfkfsAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"NewSprite5\",\"NewSprite6\",\"NewSprite7\",\"NewSprite8\"],\"name\":\"NewSprite\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit1Walk\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":5,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAl9JREFUeF7tWu1ug0AMg0l7/weu1FUdu3Kk+XCOiFXg/Rwc5hwn54TOE/8uzcB86d1z8xMFcHERUAAUwAADX98/6qr77RhBEb+M/3zAnuRbgfauDehMXUL8Uv5zAkACjNwzKgbk2cg9xH8xgAsgQ2zmXjQYmWdm7r04PiaALKHVZzTx7bKvCTjBf50AetCnR5BBa9dHjCIiAOKvxjDBf40AtOBaQUOCKVUdrSH+Evw+uUD+6wQgMxt8AegIRgRA/G0sQf6PFUAUSEsN0TrtOvo/RIEnxq8RwJNEWYb/ywO0SkD8rXE0PFgsgEZklAUtkxIOFEm+l5kkPtYJJPn3BaBlUeTi0UAh0Sf+exYX858XgHSbfSD3tHpWPyudLfG3bn8n/7gA+mz0ykylCCRmf75rgmn9rycSpPL0x5nmKU60/zEBRCRWHQOWAIjvM5DgHxNA4oG/b1ZVBbIGVBrR6LxEhXTi/WNdwEhJzZLmzQCIb5/7o7OTv3UUAFIFTizA9/FhT8geU2UNYtrztfIszRXxl49qFQLUuJ0m8aNQz3Vnz9P+/JZBtzZF/LXvHzXAsoPpAy+7qPttXiuAN3QZOc8jAxcNeSoJsKqN9/XsIvj2F6SIAE1ZciihfZduXUIUFOLr1UB2Otbx4CVgx63tAaLsaMBROZdC8aqJJSrLT3gewTqCiL8ZL8ddgJaxSPmWyhw1M8Rf5ipRQkYjc4N/XAB9QL2M9Ep81HKhswDi+596E54NE0A/3bPaOKPNGI3527ro+dH1vS8SPT+6/qH4uAD2boDrP5IBCuAjw3LcSz0AhY9cXRYLmmcAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAYAAADaInAlAAAAAXNSR0IArs4c6QAAAxBJREFUeF7tmrtKQ0EQhvdE4vNYiIgIamNjbeEj+AResBTFxlYEewtrGzshWIiFz2KpaGQCm5xsdnf+2cvZnJOkzLnM/PN/O9lLKrX8LHQFqoVWvxSvlgAsOARhAGxfDa11G5yHva9tJnRIv9wwEr9xZrfs/VqpJiAoaUDH9MsA8InXSOSGoKQBHdSPA4CIzw0BkkMuAJHYLdSPASART0XIYYIkh9TxJbFbpj8ZAIdfp96p3NPDDRbL9pbSBgDx26ofM4UpgBa/vnNgheDj9Xn0fTAEc25Am/UnA8BlviaCIMgFQGkDKH5b9bMArG3tDz97u8q59FNKzUMBchnQdf1eAEj80fGFOrkfsADQSM/xE1DSgEXQDwHweHepkC7gmwWGtP/SBuj4XdaPA/D2UilgMpZyCTgvBowA6Kh+GQA0xBvciZsCoLQBFL+D+mUAuPbgzd6f6DxgBoB5MAA5uGqRfhwAZiUwrgvtwtEnQRGsHaCUAR3VDwEwWgXQx3UKaJpibsX2+pPj478fdumpXyeZAyQB0MhzahIaox+B1nJPkP7bCq4vhcQBQM3Xe+G6C/T6w+Hv91hetbKqFAhBowZY8lzb3FPIMnjGu9AuWABAlhZkHW4FXHeBVACEAoiOPkee0fopPtIBCwE4DYAl0egCRABAtYuOH2EAdaro+Kj+QgBOAPAliqz/ffMAZAQ4jGrMAB8oMfpLA8DEbwYApA3nAhA1wJdjEwAUAnAJAAJnDADoT1AhANk5wCgvWwH0TFcnbk7SpP/KydUBUhgQUgOp/lwAMPrZVYDTfHOjx4QkpAC+uYIUwpD4XDfgNNavp44v7UJgfBkA3PqWKxBXYO469/6cBvi6AA0GLjdOG3edO4Opd2DQfHYjaKb9Iy/OVQhXB6h3olyx6+a48gg0gPN96ro+i7H93OrvEI9qL+U7gCZfP4Ts8ZuHRsgzXCUQAMxRKiwGl8L4ug20+sMp9LqS8UFAzwhjYwDAlcl4o+sk0jcXyQWAOSgCCh9dqUTdrj0ASCqmYRGOBkmI4vcm6rL/qZfxToy0resAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"Move\",\"Move2\",\"Move3\",\"Move4\"],\"name\":\"Move\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Move",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Move2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Move3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Move4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit1jUMP\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":0,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAATFJREFUWEftlksOwjAMRFsk7n9gJEBBdXFcf2bSSGUBS5LaL+Oxk3W5+LdenH/5A4wpcLu/3NI9H3Q8+oOlJY8SZWuB2TgAJAGyR8HgAExgYi8GQAT8HI7wyDwAnbR5xELLuvHPHAAveKSa+X8egO2MnwRwoOYooI0nSkzzgARCO4HogMadK+Cdohq3KOg2jHiA9mE2irN1ZxzjAPpkmcxBv0fvjjGA6hVDlAEDIAJ2o7jyS2lCr72q08s6CF3PAbKmO98QgDWXXCqks/cy6BJ4sQ8lsE6PphpSBj3AZL+Otx3qW4Js6IBydlzVBN3Wew8wCtj736qSAag8RwArl3SCV8/MI1EJprwHqjvC65ygm+o2HLlqCc9gAN5D03sBaR8AU7C+jpF2O7kHV+BkoujzN1/QFzB2xJE+AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAZRJREFUWEfNlrFuAjEMhp0r8CaMlToxoA6d+g7dWdgrVVQdUZEqda4qdecdOiOGm5AY+yZFcJVP5AiOfXGO0ONGlPj/7Ni/MdDyZ1rWh2YAt68FC754jo4XfQFQfDDhC5fPACIh4gDqxC1SPoPRsOcBfr09slp6AI04AIw676V4/3pQQfysczgNQCHOCVuCfwNws3bf4OwAmH0TcYTU9UDgCSQAzBw/6f1VADfD+2KV3YE4evvGoxXQiAcBUPxh/AJPn4sggNv5WvFjgKx7cLfdpnwaCzD/mIKmCm7jeWVn4h8Asm5RbH+r++aqB7DbmCOA5bepdUHHiDw3FOLHA+CNJlacDEBaQtR46T4IAmCAE3ugYsCFhB8DUZ3Z91jcFOBpaQvSCkRsxVoj0o6ht/qkKngHFU6oMSImLoCyCkErbh2gzE6xjtlnUPw7ClbgcgFso9nU6YSk6gGxAq4A90RnBaBjZh3SrUIyAG122nOkW8NNSANLJtOwCmEAO4YuuTRedFklG0PW6tL8qKtAGi02SusAf4AxCTDYyF0pAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"Jump2\"],\"name\":\"Jump\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Jump2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 4
+                          },
+                          {
+                            "x": 23,
+                            "y": 31
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Frame",
+          "texture": "NewTiledSprite5",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Dialogue_Box",
+          "texture": "82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Dialogue",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "shown",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "Space explorers Blue and Red have landed on the planet named \"Totumal\"\n*To move BLUE, use the  \"W\"  \"A\"  \"D\"  keys. \n*To move RED, use the arrow keys. (Click LMB to continue)",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Space explorers Blue and Red have landed on the planet named \"Totumal\"\n*To move BLUE, use the  \"W\"  \"A\"  \"D\"  keys. \n*To move RED, use the arrow keys. (Click LMB to continue)",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "characterSize": 35,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "CaveText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press \"E\" to Enter Cave\n(Both Characters must be Present)",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press \"E\" to Enter Cave\n(Both Characters must be Present)",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "center",
+            "characterSize": 30,
+            "color": "255;255;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Characters",
+            "children": [
+              {
+                "objectName": "Red"
+              },
+              {
+                "objectName": "Blue"
+              }
+            ]
+          },
+          {
+            "folderName": "Dialogue",
+            "children": [
+              {
+                "objectName": "Frame"
+              },
+              {
+                "objectName": "Dialogue_Box"
+              },
+              {
+                "objectName": "Dialogue"
+              }
+            ]
+          },
+          {
+            "objectName": "BG"
+          },
+          {
+            "objectName": "Ground"
+          },
+          {
+            "objectName": "FullFountainBlue"
+          },
+          {
+            "objectName": "CaveEntrance"
+          },
+          {
+            "objectName": "Cave"
+          },
+          {
+            "objectName": "Title"
+          },
+          {
+            "objectName": "CaveText"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayerAuthentication::HideAuthenticationBanner"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "walk.wav"
+              ]
+            },
+            {
+              "type": {
+                "value": "PreloadSound"
+              },
+              "parameters": [
+                "",
+                "Jump 3 (1).wav"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Dialogue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Character 1 Movement",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "a"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "Flippable",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "Animation",
+                    "=",
+                    "\"Walk\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "d"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "Flippable",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "Animation",
+                    "=",
+                    "\"Walk\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "w"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "PlatformerObject",
+                    "\"Jump\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "Animation",
+                    "=",
+                    "\"Jump\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnyKeyReleased"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Character 2 Movement",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Red",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Red",
+                    "Flippable",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Red",
+                    "Animation",
+                    "=",
+                    "\"Walk\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Red",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Red",
+                    "Flippable",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Red",
+                    "Animation",
+                    "=",
+                    "\"Walk\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Up"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Red",
+                    "PlatformerObject",
+                    "\"Jump\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Red",
+                    "Animation",
+                    "=",
+                    "\"Jump\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnyKeyReleased"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Red",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "SFX",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "walk.wav",
+                    "",
+                    "50",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "Red",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Red",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Red",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "walk.wav",
+                    "",
+                    "50",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Blue",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Jump 3 (1).wav",
+                    "",
+                    "10",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Red",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Jump 3 (1).wav",
+                    "",
+                    "10",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Dialogue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Dialogue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Cave",
+                    "Red",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Cave",
+                    "Blue",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "CaveText",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Cave",
+                    "Red",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Cave",
+                    "Blue",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Tutorial Cave Level\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Cave",
+                "Red",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Cave",
+                "Blue",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "CaveText"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Dialogue",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
@@ -3206,7 +5933,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3553434558817194,
+        "zoomFactor": 0.37971210019481577,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3910,21 +6637,6 @@
           "x": 7,
           "y": 649,
           "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Dialogue",
-          "name": "Dialogue_2",
-          "persistentUuid": "aae01544-1a3b-4086-91db-1d0a01e9b520",
-          "width": 0,
-          "x": 17,
-          "y": 649,
-          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6219,14 +8931,6 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dialogue_2"
-              ]
-            },
-            {
-              "type": {
                 "value": "ChangeTimeScale"
               },
               "parameters": [
@@ -6669,6 +9373,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "SFX",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7068,7 +9773,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Dialogue",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7078,95 +9782,11 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "Dialogue_1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonPressed"
+                    "value": "LayerVisible"
                   },
                   "parameters": [
                     "",
-                    "Left"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Dialogue_1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Blue_s_Head"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Dialogue_2",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "Dialogue_2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Dialogue_2",
-                    "shown",
-                    "True"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Dialogue_2",
-                    "shown",
-                    "True"
+                    "\"Dialogue\""
                   ]
                 },
                 {
@@ -8349,7 +10969,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7130377630690512,
+        "zoomFactor": 0.3325387091250827,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10309,6 +12929,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "SFX",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -42892,7 +45513,7 @@
           "persistentUuid": "f8f2a9ce-cb5c-428f-8cba-84a86489e70b",
           "width": 779,
           "x": 274,
-          "y": 236,
+          "y": 269,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -42911,7 +45532,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Thanks for playing the beta...\nUnfortunately the ending hasn't been implemented yet.",
+          "string": "Thanks for playing the beta!\nThe ending scene will be available in the final version of the game...",
           "font": "",
           "textAlignment": "left",
           "characterSize": 50,
@@ -42934,7 +45555,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Thanks for playing the beta...\nUnfortunately the ending hasn't been implemented yet.",
+            "text": "Thanks for playing the beta!\nThe ending scene will be available in the final version of the game...",
             "font": "",
             "textAlignment": "left",
             "characterSize": 50,
