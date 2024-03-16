@@ -1,0 +1,132 @@
+[
+	{
+		"title": "1",
+		"tags": "",
+		"body": "Red and Blue open the doors and gaze on what appears to be a completely destroyed throne room, as if an endearing and difficult battle took place in the area. The chairs were almost reduced to ashes, the grand artifacts that once served as elaborate decorations around the room were broken, and the carpet that led to the Grand Throne had lost its color and soul.",
+		"position": {
+			"x": -1088,
+			"y": 121
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2",
+		"tags": "",
+		"body": "Once Red and Blue walked up to the throne, there was a simple message written hastily on a piece of broken paper that said: “Remove the Salusmeda and look for its resting place on the throne.”",
+		"position": {
+			"x": -816,
+			"y": 123
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3",
+		"tags": "",
+		"body": "After a little inspection, they found the space created for it under the seat. Once Blue fitted it under, the Grand Throne descended into the ground and up rose three holographic images of what seemed to be three Totumalians.",
+		"position": {
+			"x": -523,
+			"y": 127
+		},
+		"colorID": 0
+	},
+	{
+		"title": "4",
+		"tags": "",
+		"body": "Red and Blue stare up in awe, as they eagerly wait to see what they’re going to do.",
+		"position": {
+			"x": -261,
+			"y": 129
+		},
+		"colorID": 0
+	},
+	{
+		"title": "5",
+		"tags": "",
+		"body": "The middle hologram begins speaking, and says: “If you are in this room, that means you have successfully uncovered the remains of this society. I am Crealit, the leader of the Viscalculum tribe. To my left is Animedicus, the leader of the Salusmeda tribe, and to my right is Magistrus, the leader of the Scholaris tribe.",
+		"position": {
+			"x": 6,
+			"y": 126
+		},
+		"colorID": 0
+	},
+	{
+		"title": "6",
+		"tags": "",
+		"body": "MAGISTRUS: “We are the last three members of this Crown Hall and our own tribe, who had consumed themselves in civil war. This is what we called The Infighting, and with the masses of people from each of our tribes that continued to fight each other, even we could not stop the violence.”",
+		"position": {
+			"x": -1083,
+			"y": 378
+		},
+		"colorID": 0
+	},
+	{
+		"title": "7",
+		"tags": "",
+		"body": "ANIMEDICUS: “You may ask why we all started fighting with each other. One day, our king, the great Totumalus who our planet is named after, passed away. The cities you now see in ruins, the various technology that is preserved in those three artifacts, are all of his legacy. His death brought forth great unrest within the tribes when picking the next king. Everyone argued as to why one tribe should rule over the other, why THEIR tribe was more important, and why only ONE tribe must rule us all.”",
+		"position": {
+			"x": -817,
+			"y": 377
+		},
+		"colorID": 0
+	},
+	{
+		"title": "8",
+		"tags": "",
+		"body": "CREALIT: “Us three were not opposed to either one of us ruling, as each of us had traits that made great leaders and various other skill sets that we excelled at, but everyone else only saw a chance to grab power, to be more important than the others. Yet they all failed to realize, every single tribe held importance in some way or the other. Ultimately, we realized that we had to go into hiding and make sure no one tribe could receive the ability to take from other tribes to gain full power over Totumal.”",
+		"position": {
+			"x": -522,
+			"y": 373
+		},
+		"colorID": 0
+	},
+	{
+		"title": "9",
+		"tags": "",
+		"body": "CREALIT: “We made traps at each tribal area to make sure no one would be able to reach the creations of the other tribes, but for us three, in case we ever would be able to go back, we left artifacts from each of the tribes that would create a key to the throne room.”",
+		"position": {
+			"x": -255,
+			"y": 373
+		},
+		"colorID": 0
+	},
+	{
+		"title": "10",
+		"tags": "",
+		"body": "“However, we also had to consider that one day, others might stumble upon this society, like you have. So in the rare case that someone did reach this room, we created these holograms of us as a warning to the future with a simple message:”",
+		"position": {
+			"x": 1,
+			"y": 376
+		},
+		"colorID": 0
+	},
+	{
+		"title": "11",
+		"tags": "",
+		"body": "WHAT DIVIDES US MAKES US INDIVIDUALS",
+		"position": {
+			"x": -1082,
+			"y": 649
+		},
+		"colorID": 0
+	},
+	{
+		"title": "12",
+		"tags": "",
+		"body": "BUT WORKING TOGETHER CREATES MIRACLES",
+		"position": {
+			"x": -816,
+			"y": 646
+		},
+		"colorID": 0
+	},
+	{
+		"title": "13",
+		"tags": "",
+		"body": "THE END. THANKS FOR PLAYING.",
+		"position": {
+			"x": -537,
+			"y": 640
+		},
+		"colorID": 0
+	}
+]

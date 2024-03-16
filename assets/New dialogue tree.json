@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Space explorers Blue and Red have landed on the planet \"Totumal\" (Click LMB to continue)",
+		"position": {
+			"x": -227,
+			"y": -260
+		},
+		"colorID": 2
+	},
+	{
+		"title": "Blue",
+		"tags": "",
+		"body": "Well the stories are true, Totumal is real.",
+		"position": {
+			"x": 16,
+			"y": -261
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Red",
+		"tags": "",
+		"body": "I always wondered what happened to this place, let’s go inside and find out!\r\n",
+		"position": {
+			"x": 284,
+			"y": -261
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Movement",
+		"tags": "",
+		"body": "*To move BLUE, use the  \"W\"  \"A\"  \"D\"  keys. To move RED, use the arrow keys.",
+		"position": {
+			"x": 566,
+			"y": -260
+		},
+		"colorID": 0
+	}
+]

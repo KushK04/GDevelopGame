@@ -1370,7 +1370,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite13.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite13.png\"}",
         "name": "NewSprite13",
         "smoothed": true,
         "userAdded": false
@@ -3254,6 +3254,108 @@
         "name": "NewSprite19",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/New dialogue tree.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/New dialogue tree.json\"}",
+        "name": "New dialogue tree",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nametag.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nametag",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nametag2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nametag2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nametag3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nametag3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Yellow Border_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Yellow Border_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/09c5d56e61a6a8b031a30ff89ae4229243317908385b5701a46e458c2fd6906c_Transparent Button With White Yellow Border_Hovered.png",
+          "name": "Transparent Button With White Yellow Border_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Yellow Border_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Yellow Border_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7311d88d62c25c9a5e7ed4f2031f4d58fabe564e093b203e62e467a1a995ed32_Transparent Button With White Yellow Border_Idle.png",
+          "name": "Transparent Button With White Yellow Border_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Yellow Border_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Yellow Border_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e00d068010472f362dc46547bd727f20d85163a88cd2414d7f4fb9df63db2917_Transparent Button With White Yellow Border_Pressed.png",
+          "name": "Transparent Button With White Yellow Border_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Charm-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Charm-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
+          "name": "Charm-Regular.ttf"
+        }
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/New dialogue tree2.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/New dialogue tree2.json\"}",
+        "name": "New dialogue tree2",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3263,7 +3365,14 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "DialogueState",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -3285,7 +3394,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4481978045410547,
+        "zoomFactor": 0.4194339782759252,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3597,14 +3706,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 45,
           "layer": "Dialogue",
           "name": "Dialogue",
           "persistentUuid": "c4396325-fc6d-4fe2-b9ac-9fb156ca900e",
-          "width": 0,
-          "x": 266,
-          "y": 642,
+          "width": 793,
+          "x": 329,
+          "y": 656,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -3622,6 +3732,22 @@
           "x": 879,
           "y": 467,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 167,
+          "layer": "Dialogue",
+          "name": "nametag",
+          "persistentUuid": "c21e252e-5591-44c7-9122-d607524da418",
+          "width": 165,
+          "x": 238,
+          "y": 646,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3700,10 +3826,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -4834,7 +4960,7 @@
           ],
           "effects": [],
           "behaviors": [],
-          "string": "Space explorers Blue and Red have landed on the planet named \"Totumal\"\n*To move BLUE, use the  \"W\"  \"A\"  \"D\"  keys. \n*To move RED, use the arrow keys. (Click LMB to continue)",
+          "string": "Text",
           "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "left",
           "characterSize": 35,
@@ -4857,7 +4983,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Space explorers Blue and Red have landed on the planet named \"Totumal\"\n*To move BLUE, use the  \"W\"  \"A\"  \"D\"  keys. \n*To move RED, use the arrow keys. (Click LMB to continue)",
+            "text": "Text",
             "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
             "textAlignment": "left",
             "characterSize": 35,
@@ -4904,6 +5030,165 @@
             "characterSize": 30,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "nametag",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "None",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite20",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 18
+                          },
+                          {
+                            "x": 9,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Blue",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit1Idle\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":11,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAKNJREFUWEftlsEKgDAMQzfB//9gQaVCoQyniZTtYLx4sDbPNFZrmXzUyfpFAN8cWNbjdnT7Rvejbygm3hN6utYJGweACCA1AQYHYBoTtRgA0fB6OKI+DyAG0zICQuQAuHgM53CA9s34F4AHz87uROtAxxEsA0yyyS2JA6AQ4Ox9F3EAbxCkuLXjAeK82/0+5GOU/AfzzYFECAHIATkgB+SAHDgBRvlgIWoHI3IAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAL1JREFUWEdjZBhgwDjA9jOMOoC8ELBp+4816o5UkWweyRoYQJabVWJPOqfaGRhIdARpDsBnOcxJJDqCeAcQYzkZjiDOAaRYDnIECaFANQeEfqrAW6SsntOJ1S6qOABmuYm9N1ZHnDm4FSyOzRFUcwAuy2EuAjlieDsA5FPaRQHIdAI5gbaJEBaRxGRHErIgyFjiEiFy2h7Qohg5JLBlOBLrAfJCgMotGNKjYNQBoyEwGgKjITAaAqMhQOUQAACJWlQh30ZuUQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"nametag2\"],\"name\":\"nametag\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "nametag2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 18
+                          },
+                          {
+                            "x": 9,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Red",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "nametag3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 18
+                          },
+                          {
+                            "x": 9,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4931,6 +5216,9 @@
               },
               {
                 "objectName": "Dialogue"
+              },
+              {
+                "objectName": "nametag"
               }
             ]
           },
@@ -4999,20 +5287,28 @@
             },
             {
               "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "New dialogue tree"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"Start\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ShowLayer"
               },
               "parameters": [
                 "",
                 "\"Dialogue\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "0"
               ]
             }
           ]
@@ -5545,49 +5841,555 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "LayerVisible"
-              },
-              "parameters": [
-                "",
-                "\"Dialogue\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::IsDialogueRunning"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::IsDialogueLineType"
+                  },
+                  "parameters": [
+                    "\"text\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Dialogue",
+                    "Text",
+                    "=",
+                    "DialogueTree::ClippedLineText()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::ScrollClippedText"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"Blue\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::IsDialogueLineType"
+                      },
+                      "parameters": [
+                        "\"text\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "nametag",
+                        "Animation",
+                        "=",
+                        "\"Blue\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Dialogue",
+                        "Text",
+                        "=",
+                        "DialogueTree::ClippedLineText()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "DialogueState",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DialogueTree::ScrollClippedText"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"Red\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::IsDialogueLineType"
+                      },
+                      "parameters": [
+                        "\"text\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "nametag",
+                        "Animation",
+                        "=",
+                        "\"Red\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Dialogue",
+                        "Text",
+                        "=",
+                        "DialogueTree::ClippedLineText()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "DialogueState",
+                        "=",
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DialogueTree::ScrollClippedText"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"Movement\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::IsDialogueLineType"
+                      },
+                      "parameters": [
+                        "\"text\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "nametag",
+                        "Animation",
+                        "=",
+                        "\"None\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Dialogue",
+                        "Text",
+                        "=",
+                        "DialogueTree::ClippedLineText()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "DialogueState",
+                        "=",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DialogueTree::ScrollClippedText"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "7"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StopRunningDialogue"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "8"
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Dialogue\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "1"
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5933,7 +6735,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37971210019481577,
+        "zoomFactor": 0.3325387091250978,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7727,10 +8529,10 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Retry",
+              "string": "Click to Retry\nOr press \"R\" key",
               "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
               "textAlignment": "center",
-              "characterSize": 90,
+              "characterSize": 45,
               "color": {
                 "b": 218,
                 "g": 26,
@@ -7750,10 +8552,10 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Retry",
+                "text": "Click to Retry\nOr press \"R\" key",
                 "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
                 "textAlignment": "center",
-                "characterSize": 90,
+                "characterSize": 45,
                 "color": "41;26;218"
               }
             },
@@ -8744,6 +9546,89 @@
               "width": 192
             }
           }
+        },
+        {
+          "assetStoreId": "54a9a34bb495b15fe0e00f71075908e1ce52d499723617c966ad527229c77c79",
+          "name": "GiveUp",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Give up and skip level?",
+              "font": "Charm-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 50,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Give up and skip level?",
+                "font": "Charm-Regular.ttf",
+                "textAlignment": "center",
+                "characterSize": 50,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -8877,6 +9762,9 @@
                 "objectName": "Door"
               }
             ]
+          },
+          {
+            "objectName": "GiveUp"
           }
         ]
       },
@@ -9773,6 +10661,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Dialogue",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9846,7 +10735,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Death",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10003,11 +10891,28 @@
                 },
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Retry_Button",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                      },
+                      "parameters": [
+                        "Retry_Button",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "r"
+                      ]
+                    }
                   ]
                 }
               ],
@@ -13628,7 +14533,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37971210019480645,
+        "zoomFactor": 0.3437520241612471,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14483,6 +15388,22 @@
           "x": 406,
           "y": 446,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 40,
+          "layer": "UI",
+          "name": "GiveUp",
+          "persistentUuid": "1874499d-6d38-48a1-9a09-c392a66c76c8",
+          "width": 211,
+          "x": 493,
+          "y": 0,
+          "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15441,10 +16362,10 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Retry",
+              "string": "Click to Retry\nOr press \"R\" key",
               "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
               "textAlignment": "center",
-              "characterSize": 90,
+              "characterSize": 45,
               "color": {
                 "b": 218,
                 "g": 26,
@@ -15464,10 +16385,10 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Retry",
+                "text": "Click to Retry\nOr press \"R\" key",
                 "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
                 "textAlignment": "center",
-                "characterSize": 90,
+                "characterSize": 45,
                 "color": "41;26;218"
               }
             },
@@ -17770,6 +18691,89 @@
               "width": 192
             }
           }
+        },
+        {
+          "assetStoreId": "54a9a34bb495b15fe0e00f71075908e1ce52d499723617c966ad527229c77c79",
+          "name": "GiveUp",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Give up and skip level?",
+              "font": "Charm-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 20,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Give up and skip level?",
+                "font": "Charm-Regular.ttf",
+                "textAlignment": "center",
+                "characterSize": 20,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -17828,6 +18832,9 @@
           {
             "folderName": "UI",
             "children": [
+              {
+                "objectName": "GiveUp"
+              },
               {
                 "objectName": "keys_obtained"
               },
@@ -18713,7 +19720,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Death",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18902,11 +19908,28 @@
                 },
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Retry_Button",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                      },
+                      "parameters": [
+                        "Retry_Button",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "r"
+                      ]
+                    }
                   ]
                 }
               ],
@@ -19671,6 +20694,118 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Retry\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "GiveUp",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "GiveUp",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Chest",
+                "Animation",
+                "=",
+                "\"Full Open\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Level Complete\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Level_Complete_Background",
+                "Opacity",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Chest_Text",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Powerup 1 (1).wav",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Keys",
+                "=",
+                "0"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -19920,13 +21055,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 143,
+          "height": 121,
           "layer": "",
           "name": "Artifact1",
           "persistentUuid": "76985e11-9847-40f2-b57e-2824da9a4e8f",
-          "width": 512,
-          "x": 375,
-          "y": 10,
+          "width": 1000,
+          "x": 148,
+          "y": 43,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -19957,8 +21092,8 @@
           "name": "Art1",
           "persistentUuid": "cb01e82a-13da-486b-8a31-d817f5d9b3dc",
           "width": 253,
-          "x": 55,
-          "y": 221,
+          "x": -7,
+          "y": 213,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -19966,14 +21101,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 354,
           "layer": "",
           "name": "Desc",
           "persistentUuid": "842c7219-d150-4d85-8173-91f6fbc2032b",
-          "width": 0,
-          "x": 301,
-          "y": 294,
+          "width": 967,
+          "x": 241,
+          "y": 207,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -19992,14 +21128,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Artifact 1",
+          "string": "Artifact 1: Viscalculum\n",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 125,
+          "characterSize": 100,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 254,
+            "g": 19,
+            "r": 144
           },
           "content": {
             "bold": false,
@@ -20015,11 +21151,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Artifact 1",
+            "text": "Artifact 1: Viscalculum\n",
             "font": "",
             "textAlignment": "left",
-            "characterSize": 125,
-            "color": "0;0;0"
+            "characterSize": 100,
+            "color": "144;19;254"
           }
         },
         {
@@ -20177,10 +21313,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "It looks like some kind of key component...",
+          "string": "Created: Circa 450 BC\nTribe of Origin: Invetio\nHistory: The Inventio tribe was responsible for building the machines that powered this society and along with many other inventions that helped this society’s state of living but had to be destroyed during the Infighting. This is the earliest rendition of any sort of computer chip, and while originally made to be powerful enough to provide computational power to all of Totumal, it was forced to be modified into a device to lock Totumal’s secrets.\n",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 50,
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -20200,10 +21336,10 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "It looks like some kind of key component...",
+            "text": "Created: Circa 450 BC\nTribe of Origin: Invetio\nHistory: The Inventio tribe was responsible for building the machines that powered this society and along with many other inventions that helped this society’s state of living but had to be destroyed during the Infighting. This is the earliest rendition of any sort of computer chip, and while originally made to be powerful enough to provide computational power to all of Totumal, it was forced to be modified into a device to lock Totumal’s secrets.\n",
             "font": "",
             "textAlignment": "left",
-            "characterSize": 50,
+            "characterSize": 30,
             "color": "0;0;0"
           }
         }
@@ -20373,7 +21509,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3553434558817035,
+        "zoomFactor": 0.54687500000001,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23032,7 +24168,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410741364,
+        "zoomFactor": 0.28172599320797753,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23861,6 +24997,22 @@
           "x": 7,
           "y": 103,
           "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 39,
+          "layer": "UI",
+          "name": "GiveUp",
+          "persistentUuid": "6093bff0-20fe-44c3-800d-9d56288f7c53",
+          "width": 192,
+          "x": 531,
+          "y": -2,
+          "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24819,10 +25971,10 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Retry",
+              "string": "Click to Retry\nOr press \"R\" key",
               "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
               "textAlignment": "center",
-              "characterSize": 90,
+              "characterSize": 45,
               "color": {
                 "b": 218,
                 "g": 26,
@@ -24842,10 +25994,10 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Retry",
+                "text": "Click to Retry\nOr press \"R\" key",
                 "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
                 "textAlignment": "center",
-                "characterSize": 90,
+                "characterSize": 45,
                 "color": "41;26;218"
               }
             },
@@ -28814,6 +29966,89 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "54a9a34bb495b15fe0e00f71075908e1ce52d499723617c966ad527229c77c79",
+          "name": "GiveUp",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Give up and skip level?",
+              "font": "Charm-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 20,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Give up and skip level?",
+                "font": "Charm-Regular.ttf",
+                "textAlignment": "center",
+                "characterSize": 20,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -28872,6 +30107,9 @@
           {
             "folderName": "UI",
             "children": [
+              {
+                "objectName": "GiveUp"
+              },
               {
                 "objectName": "keys_obtained"
               },
@@ -30218,11 +31456,28 @@
                 },
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Retry_Button",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                      },
+                      "parameters": [
+                        "Retry_Button",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "r"
+                      ]
+                    }
                   ]
                 }
               ],
@@ -31389,6 +32644,118 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "GiveUp",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Chest",
+                "Animation",
+                "=",
+                "\"Full Open\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Level Complete\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Level_Complete_Background",
+                "Opacity",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Chest_Text",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Powerup 1 (1).wav",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Keys",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Retry\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "GiveUp",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -31650,7 +33017,7 @@
           "name": "Artifact2",
           "persistentUuid": "76985e11-9847-40f2-b57e-2824da9a4e8f",
           "width": 0,
-          "x": 396,
+          "x": 79,
           "y": 33,
           "zOrder": 1,
           "numberProperties": [],
@@ -31682,8 +33049,8 @@
           "name": "Art2",
           "persistentUuid": "71b2d1cc-cd87-4946-a9d3-68b38bb43c32",
           "width": 293,
-          "x": 51,
-          "y": 195,
+          "x": -31,
+          "y": 191,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -31691,14 +33058,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 379,
           "layer": "",
           "name": "Desc",
           "persistentUuid": "d3932805-48b5-41c3-be69-851cc3d521e3",
-          "width": 0,
-          "x": 316,
-          "y": 317,
+          "width": 1012,
+          "x": 218,
+          "y": 164,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -31717,14 +33085,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Artifact 2",
+          "string": "Artifact 2: Doctrinagriphus",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 125,
+          "characterSize": 100,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 226,
+            "g": 144,
+            "r": 74
           },
           "content": {
             "bold": false,
@@ -31740,11 +33108,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Artifact 2",
+            "text": "Artifact 2: Doctrinagriphus",
             "font": "",
             "textAlignment": "left",
-            "characterSize": 125,
-            "color": "0;0;0"
+            "characterSize": 100,
+            "color": "74;144;226"
           }
         },
         {
@@ -31902,10 +33270,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "It looks like some kind of key component...",
+          "string": "Created: Circa 430 BC\nTribe of Origin: Scholaris\nHistory: Education was highly valued in this society, and this society had knowledge past human knowledge, which was unfortunately all destroyed to make sure no one could figure out this society’s secrets. This duty was carried out by the Scholaris tribe, a society of teachers and those dedicated to educating others. Education helped create jobs that would benefit society in all forms to aid their living. This artifact was meant to work in collaboration with the Viscalculum to provide education to all through its computational power, but had to be repurposed as a link to allow the Viscalculum to become fully operational.\n",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 50,
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -31925,10 +33293,10 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "It looks like some kind of key component...",
+            "text": "Created: Circa 430 BC\nTribe of Origin: Scholaris\nHistory: Education was highly valued in this society, and this society had knowledge past human knowledge, which was unfortunately all destroyed to make sure no one could figure out this society’s secrets. This duty was carried out by the Scholaris tribe, a society of teachers and those dedicated to educating others. Education helped create jobs that would benefit society in all forms to aid their living. This artifact was meant to work in collaboration with the Viscalculum to provide education to all through its computational power, but had to be repurposed as a link to allow the Viscalculum to become fully operational.\n",
             "font": "",
             "textAlignment": "left",
-            "characterSize": 50,
+            "characterSize": 30,
             "color": "0;0;0"
           }
         }
@@ -34758,7 +36126,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.32169117647063766,
+        "zoomFactor": 0.2725359896773354,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -36224,6 +37592,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 40,
+          "layer": "UI",
+          "name": "GiveUp",
+          "persistentUuid": "568f9a27-3976-475c-8a96-f658bbc59ba5",
+          "width": 192,
+          "x": 619,
+          "y": -4,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -37179,10 +38563,10 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Retry",
+              "string": "Click to Retry\nOr press \"R\" key",
               "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
               "textAlignment": "center",
-              "characterSize": 90,
+              "characterSize": 45,
               "color": {
                 "b": 218,
                 "g": 26,
@@ -37202,10 +38586,10 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Retry",
+                "text": "Click to Retry\nOr press \"R\" key",
                 "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
                 "textAlignment": "center",
-                "characterSize": 90,
+                "characterSize": 45,
                 "color": "41;26;218"
               }
             },
@@ -41632,6 +43016,89 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "54a9a34bb495b15fe0e00f71075908e1ce52d499723617c966ad527229c77c79",
+          "name": "GiveUp",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Give up and skip level?",
+              "font": "Charm-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 20,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Give up and skip level?",
+                "font": "Charm-Regular.ttf",
+                "textAlignment": "center",
+                "characterSize": 20,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -41711,6 +43178,42 @@
             "folderName": "Game",
             "children": [
               {
+                "objectName": "Arrow2"
+              },
+              {
+                "objectName": "Arrow"
+              },
+              {
+                "objectName": "TombStone2"
+              },
+              {
+                "objectName": "TombStone1"
+              },
+              {
+                "objectName": "GreenSwitch"
+              },
+              {
+                "objectName": "SpikedBall"
+              },
+              {
+                "objectName": "Saw2"
+              },
+              {
+                "objectName": "Saw"
+              },
+              {
+                "objectName": "Fire2"
+              },
+              {
+                "objectName": "Fire"
+              },
+              {
+                "objectName": "LongRectangleWood"
+              },
+              {
+                "objectName": "SpikeSpawner"
+              },
+              {
                 "objectName": "Chest"
               },
               {
@@ -41746,40 +43249,7 @@
             ]
           },
           {
-            "objectName": "SpikeSpawner"
-          },
-          {
-            "objectName": "LongRectangleWood"
-          },
-          {
-            "objectName": "Fire"
-          },
-          {
-            "objectName": "Fire2"
-          },
-          {
-            "objectName": "Saw"
-          },
-          {
-            "objectName": "Saw2"
-          },
-          {
-            "objectName": "SpikedBall"
-          },
-          {
-            "objectName": "GreenSwitch"
-          },
-          {
-            "objectName": "TombStone1"
-          },
-          {
-            "objectName": "TombStone2"
-          },
-          {
-            "objectName": "Arrow"
-          },
-          {
-            "objectName": "Arrow2"
+            "objectName": "GiveUp"
           }
         ]
       },
@@ -42647,7 +44117,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Death",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -43080,11 +44549,28 @@
                 },
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Retry_Button",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                      },
+                      "parameters": [
+                        "Retry_Button",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "r"
+                      ]
+                    }
                   ]
                 }
               ],
@@ -44325,6 +45811,118 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Retry\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "GiveUp",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "GiveUp",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Chest",
+                "Animation",
+                "=",
+                "\"Full Open\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Level Complete\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Level_Complete_Background",
+                "Opacity",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Chest_Text",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Powerup 1 (1).wav",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Keys",
+                "=",
+                "0"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -44586,8 +46184,8 @@
           "name": "Artifact3",
           "persistentUuid": "76985e11-9847-40f2-b57e-2824da9a4e8f",
           "width": 0,
-          "x": 387,
-          "y": 27,
+          "x": 182,
+          "y": 38,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -44613,13 +46211,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 3,
-          "height": 336,
+          "height": 309,
           "layer": "",
           "name": "Art3",
           "persistentUuid": "2e2a436c-cb4d-4238-b58b-81c63d78a1e3",
-          "width": 336,
-          "x": -7,
-          "y": 182,
+          "width": 309,
+          "x": -19,
+          "y": 136,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -44627,14 +46225,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 372,
           "layer": "",
           "name": "Desc",
           "persistentUuid": "7cb473ab-3e64-4461-922e-73542c6d1dae",
-          "width": 0,
-          "x": 316,
-          "y": 292,
+          "width": 927,
+          "x": 280,
+          "y": 186,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -44653,14 +46252,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Artifact 3",
+          "string": "Artifact 3: Salusmeda",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 125,
+          "characterSize": 100,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 5,
+            "g": 117,
+            "r": 65
           },
           "content": {
             "bold": false,
@@ -44676,11 +46275,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Artifact 3",
+            "text": "Artifact 3: Salusmeda",
             "font": "",
             "textAlignment": "left",
-            "characterSize": 125,
-            "color": "0;0;0"
+            "characterSize": 100,
+            "color": "65;117;5"
           }
         },
         {
@@ -44838,10 +46437,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "It looks like some kind of key component...",
+          "string": "Created: Circa 420 BC\nTribe of Origin: Scholaris\nHistory: The Medicus tribe was a society of healers, both of the mind and body. This artifact was initially built to be able to identify any problem within a person, physical or mental, and help doctors from this tribe to heal those who needed it the most. However, with the end times approaching for the society during the Infighting, they had to convert this into a device which would be the final piece to create the “master key”.",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 50,
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -44861,10 +46460,10 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "It looks like some kind of key component...",
+            "text": "Created: Circa 420 BC\nTribe of Origin: Scholaris\nHistory: The Medicus tribe was a society of healers, both of the mind and body. This artifact was initially built to be able to identify any problem within a person, physical or mental, and help doctors from this tribe to heal those who needed it the most. However, with the end times approaching for the society during the Infighting, they had to convert this into a device which would be the final piece to create the “master key”.",
             "font": "",
             "textAlignment": "left",
-            "characterSize": 50,
+            "characterSize": 30,
             "color": "0;0;0"
           }
         }
@@ -45034,7 +46633,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824513986,
+        "zoomFactor": 0.5468750000000013,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -45048,8 +46647,8 @@
           "name": "ArtifactKey",
           "persistentUuid": "76985e11-9847-40f2-b57e-2824da9a4e8f",
           "width": 0,
-          "x": 322,
-          "y": 29,
+          "x": 272,
+          "y": 25,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -45080,8 +46679,8 @@
           "name": "Art3",
           "persistentUuid": "2e2a436c-cb4d-4238-b58b-81c63d78a1e3",
           "width": 336,
-          "x": 33,
-          "y": 188,
+          "x": -5,
+          "y": 185,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -45091,13 +46690,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 56,
+          "height": 325,
           "layer": "",
           "name": "Desc",
           "persistentUuid": "7cb473ab-3e64-4461-922e-73542c6d1dae",
-          "width": 763,
-          "x": 378,
-          "y": 319,
+          "width": 805,
+          "x": 332,
+          "y": 218,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -45116,14 +46715,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Artifact Key",
+          "string": "Artifact Key...",
           "font": "",
           "textAlignment": "left",
           "characterSize": 125,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 28,
+            "g": 231,
+            "r": 248
           },
           "content": {
             "bold": false,
@@ -45139,11 +46738,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Artifact Key",
+            "text": "Artifact Key...",
             "font": "",
             "textAlignment": "left",
             "characterSize": 125,
-            "color": "0;0;0"
+            "color": "248;231;28"
           }
         },
         {
@@ -45301,14 +46900,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "You combined all 3 artifacts and made a key...",
+          "string": "All 3 artifacts have been combined. A key was made.\n\nThis key...\nIt seems like it can be used to unlock the throne room.",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 50,
+          "characterSize": 40,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": false,
@@ -45324,11 +46923,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "You combined all 3 artifacts and made a key...",
+            "text": "All 3 artifacts have been combined. A key was made.\n\nThis key...\nIt seems like it can be used to unlock the throne room.",
             "font": "",
             "textAlignment": "left",
-            "characterSize": 50,
-            "color": "0;0;0"
+            "characterSize": 40,
+            "color": "255;255;255"
           }
         }
       ],
@@ -45497,7 +47096,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156837,
+        "zoomFactor": 0.6040838749988913,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -45507,14 +47106,45 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 112,
+          "height": 365,
           "layer": "",
           "name": "Ending",
           "persistentUuid": "f8f2a9ce-cb5c-428f-8cba-84a86489e70b",
-          "width": 779,
-          "x": 274,
-          "y": 269,
+          "width": 1050,
+          "x": 146,
+          "y": 166,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 64,
+          "layer": "",
+          "name": "Continue",
+          "persistentUuid": "11abbd08-b7a3-4b6b-a8dd-a788a097938e",
+          "width": 320,
+          "x": 461,
+          "y": 580,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Throne_Room",
+          "persistentUuid": "5ccef411-146e-425e-ac97-9ee2a6ca1771",
+          "width": 0,
+          "x": 383,
+          "y": 31,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -45532,14 +47162,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Thanks for playing the beta!\nThe ending scene will be available in the final version of the game...",
-          "font": "",
+          "string": "Text",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "left",
           "characterSize": 50,
           "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
+            "b": 194,
+            "g": 227,
+            "r": 80
           },
           "content": {
             "bold": false,
@@ -45555,11 +47185,294 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Thanks for playing the beta!\nThe ending scene will be available in the final version of the game...",
-            "font": "",
+            "text": "Text",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
             "textAlignment": "left",
             "characterSize": 50,
-            "color": "255;255;255"
+            "color": "80;227;194"
+          }
+        },
+        {
+          "assetStoreId": "54a9a34bb495b15fe0e00f71075908e1ce52d499723617c966ad527229c77c79",
+          "name": "Continue",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Continue...",
+              "font": "Kenney Mini Square.ttf",
+              "textAlignment": "center",
+              "characterSize": 50,
+              "color": {
+                "b": 194,
+                "g": 227,
+                "r": 80
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Continue...",
+                "font": "Kenney Mini Square.ttf",
+                "textAlignment": "center",
+                "characterSize": 50,
+                "color": "80;227;194"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "nametag",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "None",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite20",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 18
+                          },
+                          {
+                            "x": 9,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Blue",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"SpaceSuit1Idle\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":11,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAKNJREFUWEftlsEKgDAMQzfB//9gQaVCoQyniZTtYLx4sDbPNFZrmXzUyfpFAN8cWNbjdnT7Rvejbygm3hN6utYJGweACCA1AQYHYBoTtRgA0fB6OKI+DyAG0zICQuQAuHgM53CA9s34F4AHz87uROtAxxEsA0yyyS2JA6AQ4Ox9F3EAbxCkuLXjAeK82/0+5GOU/AfzzYFECAHIATkgB+SAHDgBRvlgIWoHI3IAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAL1JREFUWEdjZBhgwDjA9jOMOoC8ELBp+4816o5UkWweyRoYQJabVWJPOqfaGRhIdARpDsBnOcxJJDqCeAcQYzkZjiDOAaRYDnIECaFANQeEfqrAW6SsntOJ1S6qOABmuYm9N1ZHnDm4FSyOzRFUcwAuy2EuAjlieDsA5FPaRQHIdAI5gbaJEBaRxGRHErIgyFjiEiFy2h7Qohg5JLBlOBLrAfJCgMotGNKjYNQBoyEwGgKjITAaAqMhQOUQAACJWlQh30ZuUQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"nametag2\"],\"name\":\"nametag\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "nametag2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 18
+                          },
+                          {
+                            "x": 9,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Red",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "nametag3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 18
+                          },
+                          {
+                            "x": 9,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Throne_Room",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "The Throne Room",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 100,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "The Throne Room",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "characterSize": 100,
+            "color": "208;2;27"
           }
         }
       ],
@@ -45568,6 +47481,1017 @@
         "children": [
           {
             "objectName": "Ending"
+          },
+          {
+            "objectName": "Continue"
+          },
+          {
+            "objectName": "nametag"
+          },
+          {
+            "objectName": "Throne_Room"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayerAuthentication::HideAuthenticationBanner"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::LoadDialogueFromJsonFile"
+              },
+              "parameters": [
+                "",
+                "New dialogue tree2"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Ending",
+                "Text",
+                "=",
+                "DialogueTree::ClippedLineText()"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::ScrollClippedText"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Nodes 2-4",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"3\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"4\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "3"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Nodes 5-7",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"5\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"6\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"7\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "6"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Nodes 8-10",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"8\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "7"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"9\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "8"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "8"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"10\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "9"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Nodes 11-14",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "9"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"11\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"12\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "11"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "Continue",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "11"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"13\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "DialogueState",
+                    "=",
+                    "12"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "12"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
+              },
+              "parameters": [
+                "Continue",
+                "\"Credits\"",
+                "="
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Continue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "DialogueState",
+                "=",
+                "12"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Credits\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Credits",
+      "name": "Credits",
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4950840073748899,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 668,
+          "layer": "",
+          "name": "Credits",
+          "persistentUuid": "d054a476-ac79-4e2f-8baf-0331ee3e2e9d",
+          "width": 1202,
+          "x": 37,
+          "y": 24,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Credits",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Credits\n\nLead Developer: Tristan Chen\n\nLead Writer: Saikrishna Sunkara\n\nCave Background: https://lil-cthulhu.itch.io/pixel-art-cave-background - Lil Cthulhu on itch.io\n\nSound Design and Music: Kush Khanna  (jfxr and FL Studios)\n\nVisual Assets: Kush Khanna (piskel, also used free assets from GDevelop Store)\n",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 194,
+            "g": 227,
+            "r": 80
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Credits\n\nLead Developer: Tristan Chen\n\nLead Writer: Saikrishna Sunkara\n\nCave Background: https://lil-cthulhu.itch.io/pixel-art-cave-background - Lil Cthulhu on itch.io\n\nSound Design and Music: Kush Khanna  (jfxr and FL Studios)\n\nVisual Assets: Kush Khanna (piskel, also used free assets from GDevelop Store)\n",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 40,
+            "color": "80;227;194"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Credits"
           }
         ]
       },
