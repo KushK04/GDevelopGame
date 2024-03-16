@@ -46170,7 +46170,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210186,
+        "zoomFactor": 0.5843784410740942,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -46437,7 +46437,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Created: Circa 420 BC\nTribe of Origin: Scholaris\nHistory: The Medicus tribe was a society of healers, both of the mind and body. This artifact was initially built to be able to identify any problem within a person, physical or mental, and help doctors from this tribe to heal those who needed it the most. However, with the end times approaching for the society during the Infighting, they had to convert this into a device which would be the final piece to create the “master key”.",
+          "string": "Created: Circa 420 BC\nTribe of Origin: Medicus\nHistory: The Medicus tribe was a society of healers, both of the mind and body. This artifact was initially built to be able to identify any problem within a person, physical or mental, and help doctors from this tribe to heal those who needed it the most. However, with the end times approaching for the society during the Infighting, they had to convert this into a device which would be the final piece to create the “master key”.\n",
           "font": "",
           "textAlignment": "left",
           "characterSize": 30,
@@ -46460,7 +46460,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Created: Circa 420 BC\nTribe of Origin: Scholaris\nHistory: The Medicus tribe was a society of healers, both of the mind and body. This artifact was initially built to be able to identify any problem within a person, physical or mental, and help doctors from this tribe to heal those who needed it the most. However, with the end times approaching for the society during the Infighting, they had to convert this into a device which would be the final piece to create the “master key”.",
+            "text": "Created: Circa 420 BC\nTribe of Origin: Medicus\nHistory: The Medicus tribe was a society of healers, both of the mind and body. This artifact was initially built to be able to identify any problem within a person, physical or mental, and help doctors from this tribe to heal those who needed it the most. However, with the end times approaching for the society during the Infighting, they had to convert this into a device which would be the final piece to create the “master key”.\n",
             "font": "",
             "textAlignment": "left",
             "characterSize": 30,
@@ -48421,7 +48421,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4950840073748899,
+        "zoomFactor": 0.24672586957406317,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -48431,14 +48431,29 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 668,
+          "height": 524,
           "layer": "",
           "name": "Credits",
           "persistentUuid": "d054a476-ac79-4e2f-8baf-0331ee3e2e9d",
           "width": 1202,
-          "x": 37,
-          "y": 24,
+          "x": 35,
+          "y": 182,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Credits_Title",
+          "persistentUuid": "4627bd71-58a5-459d-a40e-332b83a4359d",
+          "width": 0,
+          "x": 387,
+          "y": 19,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -48456,10 +48471,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Credits\n\nLead Developer: Tristan Chen\n\nLead Writer: Saikrishna Sunkara\n\nCave Background: https://lil-cthulhu.itch.io/pixel-art-cave-background - Lil Cthulhu on itch.io\n\nSound Design and Music: Kush Khanna  (jfxr and FL Studios)\n\nVisual Assets: Kush Khanna (piskel, also used free assets from GDevelop Store)\n",
+          "string": "Lead Developer: Tristan Chen\n\nLead Writer: Saikrishna Sunkara\n\nCave Background: https://lil-cthulhu.itch.io/pixel-art-cave-background - Lil Cthulhu on itch.io\n\nDungeon Background: https://stock.adobe.com/contributor/210813724/evan?load_type=author&prev_url=detail - Even on Adobe Stock\n\nSound Design and Music: Kush Khanna  (jfxr and FL Studios)\n\nVisual Assets: Kush Khanna (piskel, also used free assets from GDevelop Store)\n",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 40,
+          "characterSize": 30,
           "color": {
             "b": 194,
             "g": 227,
@@ -48479,11 +48494,52 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Credits\n\nLead Developer: Tristan Chen\n\nLead Writer: Saikrishna Sunkara\n\nCave Background: https://lil-cthulhu.itch.io/pixel-art-cave-background - Lil Cthulhu on itch.io\n\nSound Design and Music: Kush Khanna  (jfxr and FL Studios)\n\nVisual Assets: Kush Khanna (piskel, also used free assets from GDevelop Store)\n",
+            "text": "Lead Developer: Tristan Chen\n\nLead Writer: Saikrishna Sunkara\n\nCave Background: https://lil-cthulhu.itch.io/pixel-art-cave-background - Lil Cthulhu on itch.io\n\nDungeon Background: https://stock.adobe.com/contributor/210813724/evan?load_type=author&prev_url=detail - Even on Adobe Stock\n\nSound Design and Music: Kush Khanna  (jfxr and FL Studios)\n\nVisual Assets: Kush Khanna (piskel, also used free assets from GDevelop Store)\n",
             "font": "",
             "textAlignment": "center",
-            "characterSize": 40,
+            "characterSize": 30,
             "color": "80;227;194"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Credits_Title",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "CREDITS",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 200,
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "CREDITS",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "characterSize": 200,
+            "color": "245;166;35"
           }
         }
       ],
@@ -48492,6 +48548,9 @@
         "children": [
           {
             "objectName": "Credits"
+          },
+          {
+            "objectName": "Credits_Title"
           }
         ]
       },
